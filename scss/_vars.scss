@@ -1,0 +1,13 @@
+body{
+    font-family: 'Gotham Pro',san-serif;
+    overflow-x: hidden;
+    &.fixed-head{
+        padding-top: 161px;
+
+    }
+}
+button{
+    outline: none !important;
+    cursor: pointer;
+}
+$black:#282b2d

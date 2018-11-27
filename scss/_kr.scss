@@ -1,0 +1,218 @@
+.kr {
+
+  padding-bottom: 70px;
+
+  &__main-promo {
+    position: relative;
+    .text {
+      position: absolute;
+      bottom: 42px;
+      left: 144px;
+    }
+  }
+  &__community {
+    padding-left: 57px;
+    padding-right: 57px;
+  }
+  &__community-item {
+    background: #304493;
+    margin-bottom: 19px;
+    padding: 29px 48px 21px 65px;
+    > div:first-of-type {
+      font-family: 'Exo 2';
+      font-size: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.7;
+      letter-spacing: normal;
+      color: #ffffff;
+      margin-bottom: 31px;
+    }
+    > div:nth-of-type(2) {
+      font-family: 'Exo 2';
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.67;
+      letter-spacing: normal;
+      color: #ffffff;
+      min-height: 140px;
+    }
+  }
+  &__community-item-desc {
+    padding-left: 65px;
+    font-family: 'Exo 2';
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    color: #304493;
+    margin-bottom: 98px;
+  }
+  &__total {
+    background: #35285d;
+    padding: 55px 88px 60px;
+    margin-bottom: 103px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .heading-highlighted {
+      margin-bottom: 56px;
+      width: 100%;
+    }
+    .item {
+      margin-bottom: 37px;
+      width: 31%;
+      img {
+        width: 250px;
+        height: 166px;
+        margin-bottom: 9px;
+      }
+      &:nth-of-type(7),&:nth-of-type(8),&:nth-of-type(9){
+        margin-bottom: 0;
+      }
+      div {
+        font-family: 'Exo 2';
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        &:first-of-type {
+          font-size: 26px;
+          font-weight: bold;
+          line-height: 1.77;
+          position: relative;
+          &:before {
+            position: absolute;
+            left: -31px;
+            content: '';
+            top: 15px;
+            width: 19px;
+            height: 19px;
+            background: white;
+            border-radius: 100%;
+          }
+        }
+        &:nth-of-type(2) {
+          font-size: 13px;
+          min-height: 32px;
+        }
+      }
+    }
+  }
+  &__operator{
+    height: 234px;
+    background-color: #d8d8d8;
+    margin-bottom: 117px;
+  }
+}
+
+.img-w-label {
+  position: relative;
+  text-align: right;
+  margin-bottom: 50px;
+  img {
+
+    width: 369px;
+    height: 246px;
+  }
+  .label {
+    position: absolute;
+    transform: translateY(50%);
+    bottom: 0;
+    left: 42px;
+    padding: 12px 15px 20px;
+    font-family: 'Exo 2';
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    &.pink {
+      background: #d0428e;
+    }
+    &.purple {
+      background: #812dbd;
+    }
+  }
+}
+
+.slider-block {
+  &.kr{
+
+    .owl-stage-outer {
+      padding-left: 8rem;
+    }
+    .heading-highlighted {
+      margin-bottom: 37px;
+    }
+    .kr-slider-container {
+      padding-left: 0;
+      padding-right: 0;
+      position: relative;
+      .slider-fade {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 3;
+        width: 183px;
+        height: 400px;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
+        .btn-arrow {
+          position: absolute;
+          right: 46px;
+          top: 196px;
+          border: 0;
+          border-radius: 100%;
+          width: 66px;
+          height: 66px;
+          background-color: #cc4124;
+          display: flex;
+          &:hover {
+            background-color: #944b00;
+          }
+          img {
+            margin: auto
+          }
+        }
+      }
+      .owl-carousel {
+        z-index: 2;
+        position: relative;
+      }
+    }
+    .slider-item {
+      position: relative;
+      min-height: 450px;
+      width: 260px !important;
+      img{
+        width: 250px !important;
+        height: 344px !important;
+      }
+      .name{
+        background: #cc4124;
+        position: absolute;
+        transform: translateY(90%);
+        bottom: 143px;
+        left: -8px;
+        padding: 12px 15px 20px;
+        font-family: 'Exo 2';
+        font-size: 26px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+      }
+    }
+  }
+}
+

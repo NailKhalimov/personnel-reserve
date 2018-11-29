@@ -1462,6 +1462,44 @@ header {
         user-select: none;
         margin: auto; }
 
+.team .container {
+  max-width: 1350px; }
+.team .team-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between; }
+.team .team_element {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  width: 375px; }
+  .team .team_element .team_element-image {
+    margin-left: 15px;
+    width: 360px;
+    height: 344px;
+    object-fit: contain; }
+  .team .team_element .team_element-text {
+    padding-left: 35px;
+    height: 229px;
+    background-color: #812dbd; }
+    .team .team_element .team_element-text h3 {
+      padding-top: 15px;
+      font-size: 26px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff; }
+    .team .team_element .team_element-text p {
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.1;
+      letter-spacing: normal;
+      color: #ffffff; }
+
 .approved-dialog {
   max-width: none;
   margin: auto;

@@ -1078,8 +1078,7 @@ header {
     top: 0;
     z-index: 3;
     width: 183px;
-    height: 100%;
-    background-image: linear-gradient(to right, rgba(53, 40, 93, 0), #35285d); }
+    height: 100%; }
     .apply-container .slider-container .slider-fade .btn-arrow {
       position: absolute;
       right: 46px;
@@ -1431,36 +1430,6 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-.date-news .slider-container {
-  padding-left: 0;
-  padding-right: 0;
-  position: relative;
-  user-select: none;
-  max-width: 976px; }
-  .date-news .slider-container .slider-fade {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 3;
-    width: 183px;
-    height: 100%;
-    background-image: linear-gradient(to right, rgba(53, 40, 93, 0), #35285d); }
-    .date-news .slider-container .slider-fade .btn-arrow {
-      position: absolute;
-      right: 46px;
-      top: 50%;
-      transform: translateY(-50%);
-      border: 0;
-      border-radius: 100%;
-      width: 66px;
-      height: 66px;
-      background-color: #812dbd;
-      display: flex; }
-      .date-news .slider-container .slider-fade .btn-arrow:hover {
-        background-color: #812dbd; }
-      .date-news .slider-container .slider-fade .btn-arrow img {
-        user-select: none;
-        margin: auto; }
 
 .team .container {
   max-width: 1350px; }
@@ -1499,6 +1468,47 @@ header {
       line-height: 1.1;
       letter-spacing: normal;
       color: #ffffff; }
+
+.slider-container_with-prev-next-btns {
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  user-select: none;
+  max-width: 976px; }
+  .slider-container_with-prev-next-btns .btn-arrow-back {
+    position: absolute;
+    left: 46px;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    border: 0;
+    border-radius: 100%;
+    width: 66px;
+    height: 66px;
+    background-color: #812dbd;
+    display: flex;
+    z-index: 2; }
+    .slider-container_with-prev-next-btns .btn-arrow-back:hover {
+      background-color: #812dbd; }
+    .slider-container_with-prev-next-btns .btn-arrow-back img {
+      user-select: none;
+      margin: auto; }
+  .slider-container_with-prev-next-btns .btn-arrow {
+    position: absolute;
+    right: 46px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    border-radius: 100%;
+    width: 66px;
+    height: 66px;
+    background-color: #812dbd;
+    display: flex;
+    z-index: 2; }
+    .slider-container_with-prev-next-btns .btn-arrow:hover {
+      background-color: #812dbd; }
+    .slider-container_with-prev-next-btns .btn-arrow img {
+      user-select: none;
+      margin: auto; }
 
 .approved-dialog {
   max-width: none;

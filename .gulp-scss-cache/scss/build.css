@@ -1084,7 +1084,8 @@ header {
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
-    letter-spacing: normal; }
+    letter-spacing: normal;
+    text-shadow: 2px 2px 14px #000000; }
   .apply-container .slider-container .slider-fade-left {
     position: absolute;
     left: 0;

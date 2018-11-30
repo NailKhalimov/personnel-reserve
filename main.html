@@ -351,13 +351,7 @@
   //   $('.apply-container').find('.owl-stage').width($(firstSlider).length * $(window).width() + paddingFromLeftSide + marginRight * $(firstSlider).length)
 
 
-    $('.owl-4').owlCarousel({
-      stagePadding: 0,
-      items: 1,
-      margin: 69,
-      loop: false,
-      dots: false
-    })
+    
 
     $('.owl-carousel:not(:first)').each(function() {
       var $this = $(this);
@@ -375,6 +369,22 @@
        $this.trigger('prev.owl.carousel')
       })
     });
+
+    $('.owl-4').owlCarousel({
+        stagePadding: 0,
+        items: 1,
+        margin: 69,
+        loop: false,
+        dots: false
+    })
+
+     $('.owl-4').parent().find('.sliderBtnNext').on('click', function () {
+       $('.owl-4').trigger('next.owl.carousel')
+    })
+
+     $('.owl-4').parent().find('.sliderBtnPrev').on('click', function () {
+       $('.owl-4').trigger('prev.owl.carousel')
+    })
 
     //custom add padding from left side
     window.onload = function() {

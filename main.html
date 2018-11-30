@@ -50,11 +50,12 @@
     <div class="container-fluid apply-container">
       <div class="row">
         <div class="col-12 slider-container">
-          <div class="slider-fade">
+          <button class="btn-arrow-back sliderBtnPrev">
+            <img src="./assets/images/big-arrow.svg" alt="">
+          </button>
           <button class="btn-arrow sliderBtnNext">
             <img src="./assets/images/big-arrow.svg" alt="">
           </button>
-          </div>
           <div class="owl-4 owl-carousel owl-theme">
             <div class="item slider-item">
               <img src="./assets/images/about-us/happy-people-image.jpg" alt="">
@@ -345,6 +346,10 @@
 
       $this.parent().find('.sliderBtnNext').on('click', function() {
        $this.trigger('next.owl.carousel')
+      })
+
+      $this.parent().find('.sliderBtnPrev').on('click', function() {
+       $this.trigger('prev.owl.carousel')
       })
     });
 

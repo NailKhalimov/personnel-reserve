@@ -1156,12 +1156,24 @@
         position: relative;
         top: 30px;
         left: 10px;
-        width: 50px;
-        height: 50px;
+        width: 55px;
+        height: 55px;
         background: url(../assets/images//opinion-logo/hram.jpg);
         background-repeat: no-repeat;
-        background-size: 50px 50px;
-        margin-bottom: 50px;
+        background-size: 55px 55px;
+        margin-bottom: 55px;
+      }
+      .text-about-person {
+        position: absolute;
+        bottom: 13px;
+        left: 130px;
+        font-size: 13px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
       }
     }
   }
@@ -1181,7 +1193,7 @@
       background-size: 57px 44px;
       background-repeat: no-repeat;
       position: absolute;
-      bottom: 69px;
+      bottom: 79px;
       left: 80px;
     }
   }

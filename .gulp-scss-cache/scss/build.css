@@ -1606,7 +1606,7 @@ header {
     flex-direction: row;
     align-items: center; }
   .purple-menu .container-fluid ul {
-    width: 100%;
+    width: 95%;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -1618,20 +1618,27 @@ header {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #ffffff; }
+    color: #ffffff;
+    margin-bottom: 0px; }
     .purple-menu .container-fluid ul li ul {
       max-width: max-content;
+      position: absolute;
       display: none; }
+    .purple-menu .container-fluid ul li ul li {
+      text-align: center; }
     .purple-menu .container-fluid ul li ul li a {
-      margin-top: 10px; }
+      font-weight: normal !important;
+      margin-top: 10px;
+      margin-bottom: 10px; }
     .purple-menu .container-fluid ul li:hover ul {
       display: block;
       position: absolute;
-      padding: 19px 49px 0px 10px;
-      margin-left: -10px;
+      padding: 19px 25px 0px 25px;
+      margin-left: -25px;
       z-index: 10;
       width: 100%;
-      background-color: #35285d; }
+      background-color: #35285d;
+      transition: all 0.3s ease; }
 
 .footer-block {
   min-height: 313px; }

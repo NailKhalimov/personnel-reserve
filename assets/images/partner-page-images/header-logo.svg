@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="224" height="95" viewBox="0 0 224 95">
+    <defs>
+        <path id="a" d="M0 .387h58.387v94.28H0z"/>
+        <path id="c" d="M0 105.94h227.649V.386H0z"/>
+        <path id="e" d="M.714.66h13.904v20.726H.714z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0 -.236)">
+            <path fill="#FFF" d="M56.588 56.756c.09.132.179.265.265.4h-.136l.002.003c.077.119.15.238.224.358l.031.053.074.122.054.09.067.116.055.095.066.12c1.454 2.595 2.23 4.991 2.507 7.263.06.524.099 1.055.115 1.592.144 6.293-3.402 11.719-6.605 17.975-2.082 4.07-1.62 6.631-1.493 7.143-.87-.545-4.964-3.457-4.014-9.556.215-1.373.629-2.73 1.14-4.075l.019-.022.005-.005.012-.014.017-.02.017-.022.019-.02.014-.017.003-.004.017-.02.018-.02.018-.021.017-.021.005-.006.013-.015.017-.02.017-.021.017-.02.014-.016.005-.004.017-.021.017-.02.018-.022.017-.02.004-.005.014-.015.018-.02.017-.02.017-.021.013-.015.006-.006.017-.02.016-.021.018-.02.018-.02.003-.005.014-.016.017-.02.017-.02.019-.021.011-.014.006-.007.017-.02.018-.02.017-.021.017-.02.003-.003.016-.017.017-.021.017-.02.017-.02.01-.013.008-.008.017-.02.017-.02.019-.021.017-.02.001-.003.016-.017.018-.021.018-.02.016-.02.01-.012.007-.01.018-.019.018-.02.017-.021.018-.02.017-.02.017-.02.017-.02.018-.02.009-.012.008-.01.017-.019.018-.02.017-.02.018-.022c1.25-1.455 2.467-2.87 3.537-4.332 2.298-3.139 3.614-6.843 3.737-10.545a6.4 6.4 0 0 0 .005-.151v-.024c.002-.048.002-.096.003-.146v-.014l.003-.142v-.198l-.003-.136v-.033l-.003-.136v-.028c-.002-.047-.002-.094-.005-.143v-.015a5.78 5.78 0 0 0-.005-.144V60.94a4.642 4.642 0 0 1-.008-.13l-.003-.049-.007-.127v-.02l-.011-.151-.001-.012-.01-.128-.004-.054-.012-.118-.003-.044-.012-.12-.004-.045-.014-.123-.006-.05-.013-.105-.009-.07-.014-.109v-.015l-.004-.02-.016-.113-.01-.07-.011-.072-.017-.112-.008-.048-.02-.119-.008-.05-.013-.07-.015-.086-.002-.01-.014-.076-.016-.087-.016-.08-.001-.005-.017-.085-.002-.003-.012-.064-.02-.094-.018-.08-.02-.088-.017-.076-.016-.067-.022-.092-.016-.067-.027-.104-.013-.056-.03-.11-.014-.051-.019-.07-.023-.085-.002-.004-.022-.08-.024-.084-.001-.004-.024-.08-.027-.088-.02-.066-.024-.076-.007-.022zm-6.127-15.818c-1.91-2.07-3.576-4.297-5.164-6.253-10.34-12.745-.09-15.634 6.917-22.57-1.436 9.162 1.516 10.48 4.131 17.623-2.44-14.188-8.944-17.792 15.225-27.887-3.077 3.364-4.389 5.055-4.543 11.189 1.679-8.753 4.951-8.678 8.83-12.332-11.366 18.527 1.96 31.082-17.705 52.357-.17.156-.49.505-.805.858a17.664 17.664 0 0 0-.564-1.136 6.76 6.76 0 0 0 2.091-1.585 7.122 7.122 0 0 0 1.792-4.59l.001-.062v-.089h.01a6.902 6.902 0 0 0-1.795-4.668c-1.144-1.251-2.741-2.037-4.532-2.075l-.063-.001H54.217v-.01a6.392 6.392 0 0 0-3.756 1.23z"/>
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path fill="#FFF" d="M54.323 51.123c2.219-.164 4.01-2.14 4.063-4.555.055-2.523-1.812-4.57-4.168-4.57-2.357 0-4.31 2.047-4.364 4.57-.01.452.044.89.15 1.303 1.794.753 3.225 1.861 4.32 3.252M48.66 56.31c-7.22 2.017-5.737 8.384-14.045 5.848-7.786-2.375-14.173-6.627-15.65-9.074 5.63.93 5.382.594 11.328.422-11.837-.8-14.062-.89-20.177-8.97-1.452-1.919-3.49-3.68-4.497-7.224 5.237 2.864 16.776 4.674 20.893 5.033-9.728-2.854-23.386-1.862-26.4-20.021-.879-6.669 3.62-13.38 6.154-19.448 4.703 8.444 10.848 13.681 17.446 19.292C15.647 13.667 8.874 6.058 8.978.388c9.11 19.1 32.151 26.405 39.657 47.944.24.083.47.174.69.272a10.745 10.745 0 0 1 4.319 3.485c4.442 6.06 3.714 14.134-.673 20.125-2.486 3.395-5.776 6.556-8.42 10.531-3.683 5.535-3.679 11.922-3.679 11.922s-5.29-6.671-2.587-16.18c1.748-6.147 6.89-10.633 9.81-14.992 1.407-2.1 1.996-4.119 2.027-6.132a9.982 9.982 0 0 0-.069-1.314c-.488.033-.96.142-1.393.26" mask="url(#b)"/>
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <text fill="#FFF" font-family="Tahoma-Bold, Tahoma" font-size="46.814" font-weight="bold" mask="url(#d)">
+                <tspan x="59.36" y="80.556">KP</tspan>
+            </text>
+        </g>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="137.325" y="63.848">К</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="147.364" y="63.848">а</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="156.431" y="63.848">д</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="166.333" y="63.848">р</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="175.963" y="63.848">о</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="185.337" y="63.848">в</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="194.386" y="63.848">ы</tspan>
+        </text>
+        <g transform="translate(206.03 45.825)">
+            <mask id="f" fill="#fff">
+                <use xlink:href="#e"/>
+            </mask>
+            <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" mask="url(#f)">
+                <tspan x=".714" y="17.023">й </tspan>
+            </text>
+        </g>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="137.324" y="78.641">р</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="146.954" y="78.641">е</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="155.833" y="78.641">з</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="163.995" y="78.641">е</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="172.874" y="78.641">р</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-SemiBold, Exo 2 Semi Bold" font-size="14.817" font-weight="500" transform="translate(0 -1)">
+            <tspan x="182.504" y="78.641">в</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="137.929" y="92.771">Р</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="143.003" y="92.771">е</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="147.716" y="92.771">с</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="152.032" y="92.771">п</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="157.024" y="92.771">у</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="161.679" y="92.771">б</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="166.597" y="92.771">л</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="171.507" y="92.771">и</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="176.589" y="92.771">к</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="181.277" y="92.771">и </tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="188.188" y="92.771">Т</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="192.497" y="92.771">а</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="197.3" y="92.771">т</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="201.608" y="92.771">а</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="206.419" y="92.771">р</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="211.494" y="92.771">с</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="215.81" y="92.771">т</tspan>
+        </text>
+        <text fill="#FFF" font-family="Exo2-Medium, Exo 2 Medium" font-size="7.154" transform="translate(0 -1)">
+            <tspan x="220.119" y="92.771">а</tspan>
+        </text>
+    </g>
+</svg>

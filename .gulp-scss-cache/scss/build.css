@@ -1500,7 +1500,8 @@ header {
     height: 344px;
     object-fit: contain; }
   .team .team_element .team_element-text {
-    padding-left: 35px;
+    padding-left: 30px;
+    padding-right: 5px;
     height: 229px;
     background-color: #812dbd; }
     .team .team_element .team_element-text h3 {
@@ -1572,6 +1573,21 @@ header {
   line-height: normal;
   letter-spacing: normal;
   color: #151516; }
+.be-a-partner-container .offer {
+  display: flex;
+  flex-direction: row; }
+  .be-a-partner-container .offer .offer-text {
+    padding-top: 10px;
+    margin-left: 20px; }
+  .be-a-partner-container .offer p {
+    border-bottom: 3px solid #d0428e;
+    margin: 0 !important;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #272b2e; }
 .be-a-partner-container .text {
   font-size: 20px;
   font-weight: normal;

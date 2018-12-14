@@ -1449,7 +1449,8 @@
       object-fit: contain;
     }
     .team_element-text {
-      padding-left: 35px;
+      padding-left: 30px;
+      padding-right: 5px; 
       height: 229px;
       background-color: #812dbd;
       h3 {
@@ -1536,7 +1537,25 @@
     letter-spacing: normal;
     color: #151516;
   }
-
+  .offer {
+    display: flex;
+    flex-direction: row;
+    .offer-text {
+      padding-top: 10px;
+      margin-left: 20px;
+    }
+    p {
+      border-bottom: 3px solid #d0428e;
+      margin: 0!important;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #272b2e;
+    }
+  }
+  
   .text {
     font-size: 20px;
     font-weight: normal;

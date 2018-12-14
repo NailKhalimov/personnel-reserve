@@ -98,7 +98,7 @@ header {
     }
   }
 
-  a::after {
+  .header-element-with-lines::after {
     display: block;
     content: "";
     width: 57px;

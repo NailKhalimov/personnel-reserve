@@ -1580,6 +1580,37 @@
       flex-direction: row;
       align-items: center;
     }
+    ul {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      vertical-align: middle;
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+      li ul {    
+        max-width: max-content;
+        display: none;
+      }
+      li ul li a{
+        margin-top: 10px;
+      } 
+      li:hover ul{
+        display: block;
+        position: absolute;
+        padding: 19px 49px 0px 10px;
+        margin-left: -10px;
+        z-index: 10;
+        width: 100%;
+        background-color: #35285d;
+      }
+    }
   }
 }
 

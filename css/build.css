@@ -1488,12 +1488,12 @@ header {
 .team .team-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between; }
+  flex-direction: row; }
 .team .team_element {
   margin-bottom: 25px;
   margin-top: 25px;
-  width: 375px; }
+  margin-left: 60px;
+  max-width: calc(33.333% - 20px); }
   .team .team_element .team_element-image {
     margin-left: 15px;
     width: 360px;
@@ -1503,6 +1503,7 @@ header {
     padding-left: 30px;
     padding-right: 5px;
     height: 229px;
+    max-width: 376px;
     background-color: #812dbd; }
     .team .team_element .team_element-text h3 {
       padding-top: 15px;

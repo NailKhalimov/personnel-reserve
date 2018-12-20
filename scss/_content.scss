@@ -1617,25 +1617,25 @@
       margin-bottom: 0px;
       li ul {    
         max-width: max-content;
+        min-width: 130px;
         position: absolute;
         display: none;
       }
-      li ul li{    
+      li ul li {    
         text-align: center;
-      }
-      li ul li a {
-        font-weight: normal!important;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        a {
+          font-weight: normal!important;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
       } 
       li:hover ul {
         display: block;
         position: absolute;
         padding: 19px 25px 0px 25px;
-        margin-left: -25px;
         z-index: 10;
-        width: 100%;
-        background-color: #35285d;
+        width: auto;
+        background-color: #4b3c79;
         transition: all 0.3s ease;
       }
     }
@@ -1660,6 +1660,47 @@
     }
     .social-contacts {
       background-color: #272b2e;
+    }
+  }
+}
+.documents {
+  h3 {
+    font-size: 55px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #151516;
+  }
+  .title-of-documents {
+    h5 {
+      font-size: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.85;
+      letter-spacing: normal;
+      color: #000000;
+    }
+  }
+  .document {
+    .document_page-element {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .parameters-text-container {
+      display: flex;
+      opacity: 0.5;
+    }
+    .text {
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: #272b2e;
     }
   }
 }

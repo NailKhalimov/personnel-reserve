@@ -1639,22 +1639,22 @@ header {
     margin-bottom: 0px; }
     .purple-menu .container-fluid ul li ul {
       max-width: max-content;
+      min-width: 130px;
       position: absolute;
       display: none; }
     .purple-menu .container-fluid ul li ul li {
       text-align: center; }
-    .purple-menu .container-fluid ul li ul li a {
-      font-weight: normal !important;
-      margin-top: 10px;
-      margin-bottom: 10px; }
+      .purple-menu .container-fluid ul li ul li a {
+        font-weight: normal !important;
+        margin-top: 10px;
+        margin-bottom: 10px; }
     .purple-menu .container-fluid ul li:hover ul {
       display: block;
       position: absolute;
       padding: 19px 25px 0px 25px;
-      margin-left: -25px;
       z-index: 10;
-      width: 100%;
-      background-color: #35285d;
+      width: auto;
+      background-color: #4b3c79;
       transition: all 0.3s ease; }
 
 .footer-block {
@@ -1673,6 +1673,37 @@ header {
       font-weight: bold; }
     .footer-block .container-fluid .social-contacts {
       background-color: #272b2e; }
+
+.documents h3 {
+  font-size: 55px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #151516; }
+.documents .title-of-documents h5 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  color: #000000; }
+.documents .document .document_page-element {
+  display: inline-block;
+  vertical-align: middle; }
+.documents .document .parameters-text-container {
+  display: flex;
+  opacity: 0.5; }
+.documents .document .text {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #272b2e; }
 
 .approved-dialog {
   max-width: none;

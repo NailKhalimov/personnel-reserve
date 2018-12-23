@@ -1674,36 +1674,38 @@ header {
     .footer-block .container-fluid .social-contacts {
       background-color: #272b2e; }
 
-.documents h3 {
-  font-size: 55px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #151516; }
-.documents .title-of-documents h5 {
-  font-size: 20px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.85;
-  letter-spacing: normal;
-  color: #000000; }
-.documents .document .document_page-element {
-  display: inline-block;
-  vertical-align: middle; }
-.documents .document .parameters-text-container {
-  display: flex;
-  opacity: 0.5; }
-.documents .document .text {
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #272b2e; }
+.documents {
+  margin-left: 114px; }
+  .documents h3 {
+    font-size: 55px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #151516; }
+  .documents .title-of-documents h5 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    color: #000000; }
+  .documents .document .document_page-element {
+    display: inline-block;
+    vertical-align: middle; }
+  .documents .document .parameters-text-container {
+    display: flex;
+    opacity: 0.5; }
+  .documents .document a {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #272b2e; }
 
 .approved-dialog {
   max-width: none;

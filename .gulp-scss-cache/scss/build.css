@@ -147,7 +147,9 @@ header {
     height: 57px;
     background-size: 57px 57px;
     z-index: 3;
-    position: absolute; }
+    position: absolute;
+    pointer-events: none;
+    transition: all 0.3s ease; }
   .purple-menu .first-element::after {
     background: url("../assets/images/lines/path-4-copy-7.svg") no-repeat, url("../assets/images/lines/path-4-copy-8.svg") no-repeat 10px 13px;
     top: 2px;
@@ -155,7 +157,7 @@ header {
   .purple-menu .second-element::after {
     background: url(../assets/images/lines/path-4-copy-7.svg) no-repeat 3px 32px, url(../assets/images/lines/path-4-copy-8.svg) no-repeat 48px 13px;
     top: -48px;
-    left: 90px;
+    left: 80px;
     width: 100px;
     height: 100px; }
   .purple-menu .third-element::after {
@@ -166,7 +168,7 @@ header {
 .fourth-element::after {
   background: url(../assets/images/lines/path-4-copy-7.svg) no-repeat 10px 0px, url(../assets/images/lines/path-4-copy-7.svg) no-repeat 7px 20px;
   top: -28px;
-  left: 100px;
+  left: 90px;
   width: 100px !important;
   height: 100px !important; }
 
@@ -176,6 +178,9 @@ header {
   left: 130px;
   width: 100px !important;
   height: 100px !important; }
+
+.hide::after {
+  opacity: 0; }
 
 .apply-btn {
   position: absolute;
@@ -1342,8 +1347,7 @@ header {
 
 .events .heading-highlighted, .news .heading-highlighted {
   margin-left: 134px; }
-
-.slider-item .name {
+.events .slider-item .name, .news .slider-item .name {
   background: #cc4124;
   position: absolute;
   transform: translateY(90%);
@@ -1623,7 +1627,7 @@ header {
     flex-direction: row;
     align-items: center; }
   .purple-menu .container-fluid ul {
-    width: 95%;
+    width: 90%;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -1643,19 +1647,22 @@ header {
       position: absolute;
       display: none; }
     .purple-menu .container-fluid ul li ul li {
-      text-align: center; }
+      text-align: left; }
       .purple-menu .container-fluid ul li ul li a {
         font-weight: normal !important;
         margin-top: 10px;
         margin-bottom: 10px; }
+    .purple-menu .container-fluid ul li:hover a {
+      z-index: 100; }
     .purple-menu .container-fluid ul li:hover ul {
       display: block;
       position: absolute;
-      padding: 19px 25px 0px 25px;
+      padding: 50px 25px 0px;
       z-index: 10;
       width: auto;
       background-color: #4b3c79;
-      transition: all 0.3s ease; }
+      transition: all 0.3s ease;
+      transform: translateY(-40px); }
 
 .footer-block {
   min-height: 313px; }

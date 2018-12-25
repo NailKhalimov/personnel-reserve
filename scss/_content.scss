@@ -1251,25 +1251,23 @@
   .heading-highlighted{
     margin-left: 134px;
   }
+  .slider-item .name {
+    background: #cc4124;
+    position: absolute;
+    transform: translateY(90%);
+    bottom: 143px;
+    left: -8px;
+    padding: 12px 15px 20px;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 25px;
+  }
 }
-
-.slider-item .name {
-  background: #cc4124;
-  position: absolute;
-  transform: translateY(90%);
-  bottom: 143px;
-  left: -8px;
-  padding: 12px 15px 20px;
-  font-size: 26px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-  margin-top: 25px;
-}
-
 .about-us-page {
   .who-are-we {
     p {
@@ -1601,7 +1599,7 @@
       align-items: center;
     }
     ul {
-      width: 95%;
+      width: 90%;
       list-style: none;
       display: flex;
       justify-content: space-between;
@@ -1620,23 +1618,32 @@
         min-width: 130px;
         position: absolute;
         display: none;
+        // top: -10px;
+      }
+      li {
+        // transform-style: preserve-3d;
       }
       li ul li {    
-        text-align: center;
+        text-align: left;
         a {
           font-weight: normal!important;
           margin-top: 10px;
           margin-bottom: 10px;
         }
+      }
+      li:hover a {
+        z-index: 100;
       } 
+      
       li:hover ul {
         display: block;
         position: absolute;
-        padding: 19px 25px 0px 25px;
+        padding: 50px 25px 0px;
         z-index: 10;
         width: auto;
         background-color: #4b3c79;
         transition: all 0.3s ease;
+        transform: translateY(-40px);
       }
     }
   }

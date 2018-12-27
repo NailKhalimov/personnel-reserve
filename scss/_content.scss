@@ -1712,12 +1712,25 @@
     }
   }
 }
-
-.opinions-container {
-  margin-left: 114px;
+.opinions {
+  .opinion-contaner_head {
+    margin-left: 114px;
+    h3 {
+      font-size: 55px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #151516;
+    }
+  }
+  .opinions-container {
+    margin-left: 114px;
 
   .opinions-container_page {
     display: none;
+    padding-left: 0px;
     &.active {
       display: block;
     }
@@ -1770,6 +1783,7 @@
     height: 33px;
     background-image: url(../assets/images/opinions/arrow.svg);
     border: none;
+    padding: 0px;
     &.prev-button {
       transform: rotate(180deg);
     }
@@ -1789,8 +1803,17 @@
     font-weight: bold;
     background-color: #ede2f4;
     transition: background-color 0.3s ease;
+    border: none;
+    padding: 0px;
+    a {
+      color: #812dbd;
+    }
     &.active {
       background-color: #812dbd;
+      a {
+        color: #fff;
+      }
     }
   }
+}
 }

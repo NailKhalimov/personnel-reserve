@@ -1714,6 +1714,67 @@ header {
     letter-spacing: normal;
     color: #272b2e; }
 
+.opinions-container {
+  margin-left: 114px; }
+  .opinions-container .opinions-container_page {
+    display: none; }
+    .opinions-container .opinions-container_page.active {
+      display: block; }
+    .opinions-container .opinions-container_page .person img {
+      max-width: 83px;
+      max-height: 83px; }
+    .opinions-container .opinions-container_page .person .information_text {
+      font-size: 13px;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000000;
+      padding-top: 15px; }
+      .opinions-container .opinions-container_page .person .information_text::after {
+        position: absolute;
+        content: '';
+        width: 70px;
+        height: 1px;
+        background-color: #812dbd;
+        top: 15px;
+        right: 0px; }
+    .opinions-container .opinions-container_page .text {
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.38;
+      letter-spacing: normal;
+      color: #000000; }
+  .opinions-container button {
+    display: inline-block;
+    vertical-align: middle; }
+    .opinions-container button:first-child {
+      margin-left: 15px; }
+  .opinions-container .navigate {
+    width: 33px;
+    height: 33px;
+    background-image: url(../assets/images/opinions/arrow.svg);
+    border: none; }
+    .opinions-container .navigate.prev-button {
+      transform: rotate(180deg); }
+    .opinions-container .navigate.next-button {
+      transform: rotate(0deg); }
+  .opinions-container .page-button {
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #ede2f4;
+    transition: background-color 0.3s ease; }
+    .opinions-container .page-button.active {
+      background-color: #812dbd; }
+
 .approved-dialog {
   max-width: none;
   margin: auto;

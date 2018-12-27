@@ -1791,7 +1791,8 @@ header {
     padding: 7px; }
     .opinions .opinions-container .page-button:hover {
       background-color: #812dbd;
-      color: #fff; }
+      color: #fff;
+      text-decoration: none; }
 
 .approved-dialog {
   max-width: none;

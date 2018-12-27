@@ -1773,25 +1773,25 @@ header {
       transform: rotate(180deg); }
     .opinions .opinions-container .navigate.next-button {
       transform: rotate(0deg); }
+  .opinions .opinions-container .nav {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle; }
   .opinions .opinions-container .page-button {
     border-radius: 50%;
     width: 33px;
     height: 33px;
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
     font-size: 13px;
     font-weight: bold;
     background-color: #ede2f4;
     transition: background-color 0.3s ease;
     border: none;
-    padding: 0px; }
-    .opinions .opinions-container .page-button a {
-      color: #812dbd; }
-    .opinions .opinions-container .page-button.active {
-      background-color: #812dbd; }
-      .opinions .opinions-container .page-button.active a {
-        color: #fff; }
+    padding: 0px;
+    color: #812dbd;
+    padding: 7px; }
+    .opinions .opinions-container .page-button:hover {
+      background-color: #812dbd;
+      color: #fff; }
 
 .approved-dialog {
   max-width: none;

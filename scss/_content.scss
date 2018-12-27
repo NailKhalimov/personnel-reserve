@@ -1791,28 +1791,26 @@
       transform: rotate(0deg);
     }
   }
-
+  .nav {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+  }
   .page-button {
     border-radius: 50%;
     width: 33px;
     height: 33px;
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
     font-size: 13px;
     font-weight: bold;
     background-color: #ede2f4;
     transition: background-color 0.3s ease;
     border: none;
     padding: 0px;
-    a {
-      color: #812dbd;
-    }
-    &.active {
+    color: #812dbd;
+    padding: 7px;
+    &:hover {
       background-color: #812dbd;
-      a {
-        color: #fff;
-      }
+      color: #fff;
     }
   }
 }

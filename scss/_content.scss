@@ -870,15 +870,13 @@
 
 .events {
   height: 630px;
-  background-image: url(../assets/images/rectangle-copy-7.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: #35285d;
 }
 
 .apply-container {
   .slider-item {
     width: 100%;
-    margin-right: 69px;
+    // margin-right: 69px;
     max-height: 476px;
   }
   .col {
@@ -983,6 +981,106 @@
 }
   }
 }
+
+.slider-container,
+.kr-slider-container {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    user-select: none;
+    .owl-4 {
+      .owl-item {
+        // margin-right: 0px!important;
+      }
+    }
+    .owl-1,
+    .owl-2,
+    .owl-3 {
+      .owl-stage {
+      margin-left: 183px;
+    }
+    }
+    
+    .slider-text {
+      position: absolute;
+      bottom: 42px;
+      left: 144px;
+      font-size: 55px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-shadow: 2px 2px 14px #000000;
+    }
+    .slider-fade-left {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 3;
+      width: 183px;
+      height: 100%;
+      background-image: linear-gradient(to left, rgba(53, 40, 93, 0), #35285d);
+      .btn-arrow-back {
+      position: absolute;
+      left: 46px;
+      top: 50%;
+      transform: translateY(-50%) rotate(180deg);
+      border: 0;
+      border-radius: 100%;
+      width: 66px;
+      height: 66px;
+      background-color: #812dbd;
+      display: flex;
+      z-index: 3;
+      &:hover {
+        background-color: #812dbd;
+      }
+      img {
+        user-select: none;
+        margin: auto;
+      }
+      }
+    }
+    
+    .slider-fade-right {
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 3;
+      width: 183px;
+      height: 100%;
+      background-image: linear-gradient(to right, rgba(53, 40, 93, 0), #35285d)!important;
+        .btn-arrow {
+        position: absolute;
+        right: 46px;
+        top: 50%;
+        transform: translateY(-50%);
+        border: 0;
+        border-radius: 100%;
+        width: 66px;
+        height: 66px;
+        background-color: #812dbd;
+        display: flex;
+        z-index: 3;
+        &:hover {
+          background-color: #812dbd;
+        }
+        img {
+          user-select: none;
+          margin: auto;
+        }
+      // }
+      }
+      .slider-item {
+        width: 1440px;
+        // max-height: 362px;
+        img {
+          object-fit: contain;
+        }
+    }
+  }
+  }
 
 .white {
   color: #fff;
@@ -1110,31 +1208,6 @@
         height: 4px;
       }
     }
-    .slider-fade {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 3;
-    width: 123px;
-    height: 221px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
-    .btn-arrow {
-      position: absolute;
-      right: 28px;
-      top: 50%;
-      user-select: none;
-      border: 0;
-      border-radius: 100%;
-      width: 66px;
-      height: 66px;
-      background-color: #35285d;
-      display: flex;
-      transform: translateY(-50%);
-      img {
-        margin: auto
-      }
-    }
-  }
 }
 
 .opinion {
@@ -1203,32 +1276,6 @@
 
   .container-fluid {
     position: relative;
-  }
-
-  .slider-fade {
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 3;
-    width: 123px;
-    height: 221px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
-    .btn-arrow {
-      position: absolute;
-      right: 28px;
-      top: 50%;
-      user-select: none;
-      border: 0;
-      border-radius: 100%;
-      width: 66px;
-      height: 66px;
-      background-color: #35285d;
-      display: flex;
-      transform: translateY(-50%);
-      img {
-        margin: auto
-      }
-    }
   }
 }
 
@@ -1426,27 +1473,32 @@
   }
 }
 
-.team {
+.team,
+.trainers {
   .container {
     max-width: 1350px; 
   }
-  .team-container {
+  .team-container,
+  .trainers-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .team_element {
+  .team_element,
+  .trainers-element {
     margin-bottom: 25px; 
     margin-top: 25px; 
     margin-left: 60px;
     max-width: calc(33.333% - 20px); 
-    .team_element-image {
+    .team_element-image,
+    .trainers-element-image {
       margin-left: 15px;
       width: 360px;
       height: 344px;
       object-fit: contain;
     }
-    .team_element-text {
+    .team_element-text,
+    .trainers-element-text {
       padding-left: 30px;
       padding-right: 5px; 
       height: 229px;

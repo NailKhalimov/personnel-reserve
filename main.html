@@ -83,7 +83,12 @@
         </div>
     </div>
     <div class="container-fluid kr-slider-container">
-      <div class="slider-fade">
+      <div class="slider-fade-left">
+        <button class="btn-arrow-back sliderBtnPrev">
+          <img src="./assets/images/big-arrow.svg" alt="">
+        </button>
+      </div>
+      <div class="slider-fade-right">
         <button class="btn-arrow sliderBtnNext">
           <img src="./assets/images/big-arrow.svg" alt="">
         </button>
@@ -119,7 +124,12 @@
       </div>
     </div>
     <div class="container-fluid kr-slider-container">
-      <div class="slider-fade">
+      <div class="slider-fade-left">
+        <button class="btn-arrow-back sliderBtnPrev">
+          <img src="./assets/images/big-arrow.svg" alt="">
+        </button>
+      </div>
+      <div class="slider-fade-right">
         <button class="btn-arrow sliderBtnNext">
           <img src="./assets/images/big-arrow.svg" alt="">
         </button>
@@ -202,14 +212,19 @@
   </section>
 
   <section class="opinion">
-    <div class="container-fluid mb-5">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12">
           <h3 class="heading-highlighted purple pt-5 mb-5">Мнения</h3>
         </div>
       </div>
       <div class="container-fluid kr-slider-container">
-        <div class="slider-fade">
+        <div class="slider-fade-left">
+          <button class="btn-arrow-back sliderBtnPrev">
+            <img src="./assets/images/big-arrow.svg" alt="">
+          </button>
+        </div>
+        <div class="slider-fade-right">
           <button class="btn-arrow sliderBtnNext">
             <img src="./assets/images/big-arrow.svg" alt="">
           </button>
@@ -376,21 +391,9 @@
   <script src="./js/floating-label.js"></script>
 
   <script>
-
-    
-  //   const firstSlider = $('.apply-container').find('.owl-stage').children();
-  //   const firstSliderContainer = $('.apply-container').find('.slider-container')
-  //   const marginRight = 69;
-
-  //  $(firstSlider).width($(window).width())
-  //   $(firstSliderContainer).width($(window).width())
-  //   $('.apply-container').find('.owl-stage').width($(firstSlider).length * $(window).width() + paddingFromLeftSide + marginRight * $(firstSlider).length)
-
-
-    
-
     $('.owl-carousel:not(:first)').each(function() {
       var $this = $(this);
+      console.log($this)
       $this.owlCarousel({
         margin: 69,
         autoWidth: true,
@@ -418,7 +421,7 @@
         dots: false,
         autoplay: true,
         autoplayTimeout: 3000,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
     })
 
      $('.owl-4').parent().find('.sliderBtnNext').on('click', function () {
@@ -428,46 +431,6 @@
      $('.owl-4').parent().find('.sliderBtnPrev').on('click', function () {
        $('.owl-4').trigger('prev.owl.carousel')
     })
-
-    //custom add padding from left side
-    window.onload = function() {
-      let sliderWidth = $('.owl-stage').width();
-      const paddingFromLeftSide = 20; //px
-      const widthOfOpinion = 525;
-      const corouselsInPage = $(".owl-stage").length; 
-      
-
-      
-
-      for (let i = 1; i < corouselsInPage + 1; i += 1) {
-        $(`.owl-stage-${i}`)
-          .find('.owl-item')
-          .filter(':first-child')
-          .css({ 'padding-left': '20px' })
-      }
-      for (let i = 2; i < corouselsInPage + 1; i += 1) {
-        $(`.owl-stage-${i}`).width(sliderWidth + paddingFromLeftSide);
-      }
-
-      
-      // console.log($(".owl-stage").length)
-      // for (let i = 0; i < )
-      
-
-
-
-      $('.slider-item')
-        .find('.owl-item')
-        .filter(':first-child')
-        .find('.layer')
-        .css({ 'left': '20px' })
-
-      $('.opinion')
-        .find('.owl-stage')
-        .css({'width': (widthOfOpinion * $('.owl-stage').children().length) + 'px'})
-      
-    }
-    
   </script>
 </body>
 </html>

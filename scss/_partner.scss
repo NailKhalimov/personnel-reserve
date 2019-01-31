@@ -1,0 +1,39 @@
+
+.be-a-partner-container {
+  .container {
+    border-bottom: 2px solid #812dbd;
+  }
+  h3 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #151516;
+  }
+  .offer {
+    display: flex;
+    flex-direction: row;
+    .offer-text {
+      padding-top: 10px;
+      margin-left: 20px;
+    }
+    p {
+      border-bottom: 3px solid #d0428e;
+      margin: 0!important;
+      font-weight: bold;
+      color: #272b2e;
+    }
+  }
+  
+  .text {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #272b2e;
+  }
+  .text-bold {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #000000;
+  }
+}

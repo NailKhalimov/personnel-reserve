@@ -1,0 +1,42 @@
+.documents {
+  margin-left: 114px;
+  h3 {
+    font-size: 55px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #151516;
+  }
+  .title-of-documents {
+    h5 {
+      font-size: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.85;
+      letter-spacing: normal;
+      color: #000000;
+    }
+  }
+  .document {
+    .document_page-element {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .parameters-text-container {
+      display: flex;
+      opacity: 0.5;
+    }
+    a {
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: #272b2e;
+    }
+  }
+}

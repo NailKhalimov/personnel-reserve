@@ -1,24 +1,23 @@
-.team {
+.trainers {
   .container {
     max-width: 1350px; 
   }
-  .team-container {
+  &-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-  }
-  .team_element {
+    &__element {
     margin-bottom: 25px; 
     margin-top: 25px; 
     margin-left: 60px;
     max-width: calc(33.333% - 20px); 
-    .team_element-image {
+    &-image {
       margin-left: 15px;
       width: 360px;
       height: 344px;
       object-fit: contain;
     }
-    .team_element-text {
+    &-text {
       padding-left: 30px;
       padding-right: 5px; 
       height: 229px;
@@ -43,6 +42,7 @@
         letter-spacing: normal;
         color: #ffffff;
       }
+    }
     }
   }
 }

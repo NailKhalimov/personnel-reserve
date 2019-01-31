@@ -1,13 +1,73 @@
-body{
+body {
     font-family: 'Gotham Pro',san-serif;
     overflow-x: hidden;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
     &.fixed-head{
         padding-top: 161px;
 
     }
 }
-button{
+button {
     outline: none !important;
     cursor: pointer;
 }
+
+//POPUP STYLES IN TRAINERS PAGE
+@media (min-width: 992px) {
+    .modal-lg {
+        max-width: 1134px;
+    }
+}
+.modal {
+    &-header {
+        border-bottom: none!important;
+        .close {
+            background-image: url(../assets/images/trainers/combined-shape.svg);
+            width: 32.5px;
+            height: 32.5px;
+            margin: 0rem 0rem -1rem auto!important;
+        }
+    }
+    &-body {
+        &__img {
+            text-align: center;
+        }
+        &__text {
+            &-header {
+                font-size: 26px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #000000;
+            }
+            &-body {
+                font-size: 20px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.1;
+                letter-spacing: normal;
+                color: #000000;
+            }
+            &-body_details {
+                font-size: 13px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.38;
+                letter-spacing: normal;
+                color: #000000;
+                a:link {
+                    color: #8223c0;
+                }
+            }
+        }
+    }
+}
+
 $black:#282b2d

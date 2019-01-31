@@ -1,0 +1,104 @@
+.opinions {
+  .opinion-contaner_head {
+    margin-left: 114px;
+    h3 {
+      font-size: 55px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #151516;
+    }
+  }
+  .opinions-container {
+    margin-left: 114px;
+
+  .opinions-container_page {
+    display: none;
+    padding-left: 0px;
+    &.active {
+      display: block;
+    }
+    .person {
+      img {
+        max-width: 83px;
+        max-height: 83px;
+      }
+      .information_text {
+        font-size: 13px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+        padding-top: 15px;
+        &::after {
+          position: absolute;
+          content: '';
+          width: 70px;
+          height: 1px;
+          background-color: #812dbd;
+          top: 15px;
+          right: 0px;
+        }
+      }
+    }
+
+    .text {
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.38;
+      letter-spacing: normal;
+      color: #000000;
+    }
+  }
+
+  button {
+    display: inline-block;
+    vertical-align: middle;
+    &:first-child {
+      margin-left: 15px;
+    }
+  }
+
+  .navigate {
+    width: 33px;
+    height: 33px;
+    background-image: url(../assets/images/opinions/arrow.svg);
+    border: none;
+    padding: 0px;
+    &.prev-button {
+      transform: rotate(180deg);
+    }
+    &.next-button {
+      transform: rotate(0deg);
+    }
+  }
+  .nav {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .page-button {
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #ede2f4;
+    transition: background-color 0.3s ease;
+    border: none;
+    padding: 0px;
+    color: #812dbd;
+    padding: 7px;
+    &:hover {
+      background-color: #812dbd;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+}

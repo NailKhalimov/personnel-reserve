@@ -1,0 +1,54 @@
+.contact-page-info-block {
+  .container-fluid{
+    height: 721px;
+  }
+
+  .contact-page-map {
+    width: 100%;
+    overflow: hidden;
+
+    img { 
+      max-width: 1182px;
+    }
+  }
+
+  .contact-page-info-text {
+    .email{
+      width: 333px;
+      height: 42px;
+      object-fit: contain;
+      font-size: 35px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #812dbd;
+      position: absolute;
+      top: 177px;
+      right: 116px;
+      bottom: 502px;
+      left: 52px;
+    }
+    .phone-address-container {
+      width: 414px;
+      height: 263px;
+      object-fit: contain;
+      position: absolute;
+      top: 259px;
+      right: 35px;
+      bottom: 199px;
+      left: 57px;
+
+      p {
+        height: auto;
+        font-size: 20px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #000000;
+      }
+    }
+  }
+}

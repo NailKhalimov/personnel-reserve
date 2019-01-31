@@ -1,0 +1,58 @@
+.jobs {
+  max-width: 1317px;
+  .collapse-control {
+      background-color: #f1e3fa;
+    a {
+      width: 100%;
+      display: block;
+      font-family: 'Gotham Pro Bold';
+      background-color: #f1e3fa;
+      padding-left: 19px;
+      padding-top: 7px;
+      padding-bottom: 9px;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 2;
+      color: #282b2d;
+      img {
+        margin-left: 8px;
+      }
+     } 
+  }
+  &-container {
+    &__content {
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.85;
+      letter-spacing: normal;
+      color: #000000;
+      &-button-submit {
+        border: 2px solid #812dbd;
+        color: #812dbd;
+        border-radius: 10px;
+        box-shadow: 4px 0 10px 0 rgba(129, 45, 189, 0.32);
+        background-color: #ffffff;
+        margin: 10px 0px;
+        
+      }
+      p {
+        font-weight: bold;
+      }
+      ul {
+        li {
+          font-weight: normal;
+          text-decoration: none;
+          list-style: none;
+        }
+      }
+      &-duties {
+
+      }
+      &-requirements {
+
+      }
+    }
+  }
+}

@@ -7,6 +7,9 @@
     font-size: 55px;
     font-weight: bold;
     color: #151516;
+    @media (max-width: 576px) {
+      font-size: 40px;
+    }
   }
   .offer {
     display: flex;
@@ -35,5 +38,18 @@
     line-height: 1.4;
     letter-spacing: normal;
     color: #000000;
+  }
+}
+.contact-inf-block {
+  img {
+    border-radius: 50%;
+    width: 100%;
+  }
+  .information {
+    p {
+      font-size: 20px;
+      line-height: 1.5;
+      letter-spacing: normal;
+    }
   }
 }

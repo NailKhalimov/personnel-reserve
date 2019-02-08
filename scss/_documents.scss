@@ -1,5 +1,10 @@
 .documents {
-  margin-left: 114px;
+  @media (min-width: 768px){ 
+    margin-left: 114px;  
+  }
+  @media (max-width: 575.98px) {
+    margin-left: 0px;
+  }
   h3 {
     font-size: 55px;
     font-weight: bold;
@@ -8,6 +13,9 @@
     line-height: normal;
     letter-spacing: normal;
     color: #151516;
+    @media (max-width: 575.98px) {
+      font-size: 45px;
+    }
   }
   .title-of-documents {
     h5 {
@@ -24,7 +32,7 @@
     .document_page-element {
       display: inline-block;
       vertical-align: middle;
-    }
+    } 
     .parameters-text-container {
       display: flex;
       opacity: 0.5;

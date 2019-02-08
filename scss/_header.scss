@@ -98,51 +98,51 @@ header {
     }
   }
 
-  .header-element-with-lines::after {
-    display: block;
-    content: "";
-    width: 57px;
-    height: 57px;
-    background-size: 57px 57px;
-    z-index: 3;
-    position: absolute;
-    pointer-events: none;
-    transition: all 0.3s ease;
-  }
+  // .header-element-with-lines::after {
+  //   display: block;
+  //   content: "";
+  //   width: 57px;
+  //   height: 57px;
+  //   background-size: 57px 57px;
+  //   z-index: 3;
+  //   position: absolute;
+  //   pointer-events: none;
+  //   transition: all 0.3s ease;
+  // }
 
-  .first-element::after {
-    background: url('../assets/images/lines/path-4-copy-7.svg') no-repeat, url('../assets/images/lines/path-4-copy-8.svg') no-repeat 10px 13px;
-    top: 2px;
-    left: 30px;
-  }
+  // .first-element::after {
+  //   background: url('../assets/images/lines/path-4-copy-7.svg') no-repeat, url('../assets/images/lines/path-4-copy-8.svg') no-repeat 10px 13px;
+  //   top: 2px;
+  //   left: 30px;
+  // }
 
-  .second-element::after {
-    background: url(../assets/images/lines/path-4-copy-7.svg) no-repeat 3px 32px, url(../assets/images/lines/path-4-copy-8.svg) no-repeat 48px 13px;
-    top: -48px;
-    left: 80px;
-    width: 100px;
-    height: 100px;
+  // .second-element::after {
+  //   background: url(../assets/images/lines/path-4-copy-7.svg) no-repeat 3px 32px, url(../assets/images/lines/path-4-copy-8.svg) no-repeat 48px 13px;
+  //   top: -48px;
+  //   left: 80px;
+  //   width: 100px;
+  //   height: 100px;
+  // }
+  // .third-element::after {
+  //   background: url(../assets/images/lines/path-4-copy-7.svg) no-repeat;
+  //   top: -21px;
+  //   left: 130px;
+  // }
   }
-  .third-element::after {
-    background: url(../assets/images/lines/path-4-copy-7.svg) no-repeat;
-    top: -21px;
-    left: 130px;
-  }
-  }
-  .fourth-element::after {
-    background: url(../assets/images/lines/path-4-copy-7.svg) no-repeat 10px 0px, url(../assets/images/lines/path-4-copy-7.svg) no-repeat 7px 20px;
-    top: -28px;
-    left: 90px;
-    width: 100px!important;
-    height: 100px!important;
-  }
-  .five-element::after {
-    background: url(../assets/images/lines/path-4-copy-7.svg) no-repeat, url(../assets/images/lines/path-4-copy-8.svg) no-repeat 0px 13px;
-    top: -38px;
-    left: 130px;
-    width: 100px!important;
-    height: 100px!important;
-  }
+  // .fourth-element::after {
+  //   background: url(../assets/images/lines/path-4-copy-7.svg) no-repeat 10px 0px, url(../assets/images/lines/path-4-copy-7.svg) no-repeat 7px 20px;
+  //   top: -28px;
+  //   left: 90px;
+  //   width: 100px!important;
+  //   height: 100px!important;
+  // }
+  // .five-element::after {
+  //   background: url(../assets/images/lines/path-4-copy-7.svg) no-repeat, url(../assets/images/lines/path-4-copy-8.svg) no-repeat 0px 13px;
+  //   top: -38px;
+  //   left: 130px;
+  //   width: 100px!important;
+  //   height: 100px!important;
+  // }
 
   .hide::after {
     // background: none!important;

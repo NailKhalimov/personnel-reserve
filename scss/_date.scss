@@ -7,6 +7,9 @@
     line-height: normal;
     letter-spacing: normal;
     color: #151516;
+    @media (max-width: 576px) {
+      font-size: 25px;
+    }
   }
   .info-date-block {
     min-height: 113px;
@@ -26,6 +29,9 @@
         line-height: normal;
         letter-spacing: normal;
         color: #1d1e1f;
+        @media (max-width: 576px) {
+          font-size: 20px;
+        }
       }
       &:after {
         position: absolute;
@@ -46,6 +52,9 @@
       justify-content: baseline;
       align-items: center;
       padding-left: 80px;
+      @media (max-width: 576px) {
+        padding-left: 15px;
+      }
       h3 {
         font-size: 26px;
         font-weight: bold;
@@ -54,6 +63,9 @@
         line-height: normal;
         letter-spacing: normal;
         color: #1d1e1f;
+        @media (max-width: 576px) {
+          font-size: 20px;
+        }
       }
     }
   }

@@ -1,6 +1,9 @@
 .opinions {
   .opinion-contaner_head {
     margin-left: 114px;
+    @media (max-width: 576px) {
+      margin-left: 0px;
+    }
     h3 {
       font-size: 55px;
       font-weight: bold;
@@ -13,7 +16,9 @@
   }
   .opinions-container {
     margin-left: 114px;
-
+    @media (max-width: 576px) {
+      margin-left: 0px;
+    }
   .opinions-container_page {
     display: none;
     padding-left: 0px;
@@ -41,10 +46,21 @@
           background-color: #812dbd;
           top: 15px;
           right: 0px;
+          @media (max-width: 576px) {
+            display: none;
+          }
         }
       }
     }
-
+    .opinions__element-text {
+      margin-left: 3rem!important;
+      margin-right: 3rem!important;
+      margin-top: .5rem!important;
+      @media (max-width: 576px) {
+        margin: 0px!important;
+        margin-top: 15px!important;
+      }
+    }
     .text {
       font-size: 13px;
       font-weight: normal;

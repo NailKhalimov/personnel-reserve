@@ -28,14 +28,21 @@
       line-height: 1.85;
       letter-spacing: normal;
       color: #000000;
+      margin-left: 3rem!important;
+      margin-top: .5rem!important;
+      @media (max-width: 576px) {
+        margin-left: 0px!important;
+        margin-top: 0px!important;
+        font-size: 15px;
+      }
       &-button-submit {
+        font-size: 20px;
         border: 2px solid #812dbd;
         color: #812dbd;
         border-radius: 10px;
         box-shadow: 4px 0 10px 0 rgba(129, 45, 189, 0.32);
         background-color: #ffffff;
         margin: 10px 0px;
-        
       }
       p {
         font-weight: bold;
@@ -46,12 +53,6 @@
           text-decoration: none;
           list-style: none;
         }
-      }
-      &-duties {
-
-      }
-      &-requirements {
-
       }
     }
   }

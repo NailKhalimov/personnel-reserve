@@ -112,7 +112,7 @@
         <div class="col-12">
           <div class="social-share">
             <div class="row">
-              <div class="col-3">
+              <div class="col-lg-3 col-sm-12">
                 <div class="icon-container">
                   <p class="counter"><a href=""><img src="./assets/images/news/facebook-icon.svg" alt=""></a> 1</p>
                   <p class="counter"><a href=""><img src="./assets/images/news/vk-icon.svg" alt=""></a> </p>
@@ -150,25 +150,30 @@
   <script src="./js/smooth-scrolling.js"></script>
   <script src="./js/floating-label.js"></script>
   <script>
-    $('.owl-carousel').each(function () {
-        var $this = $(this);
-        $this.owlCarousel({
-          margin: 69,
-          autoWidth: true,
-          loop: false,
-          dots: false,
-          autoplay: true,
-          autoplayTimeout: 3000,
-          autoplayHoverPause: true
+     $(window).on('load', function () {
+      $('.owl-carousel').each(function () {
+          var $this = $(this);
+          $this.owlCarousel({
+            margin: 69,
+            // autoWidth: true,
+            loop: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            hidden: false,
+            stagePadding: 10,
+            items: 1
+          });
+
+          $this.parent().find('.sliderBtnNext').on('click', function () {
+            $this.trigger('next.owl.carousel')
+          })
+
+          $this.parent().find('.sliderBtnPrev').on('click', function () {
+            $this.trigger('prev.owl.carousel')
+          })
         });
-
-        $this.parent().find('.sliderBtnNext').on('click', function () {
-          $this.trigger('next.owl.carousel')
-        })
-
-        $this.parent().find('.sliderBtnPrev').on('click', function () {
-          $this.trigger('prev.owl.carousel')
-        })
       });
   </script>
 </body>

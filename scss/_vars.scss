@@ -15,12 +15,18 @@ button {
     cursor: pointer;
 }
 
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
 //POPUP STYLES IN TRAINERS PAGE
 @media (min-width: 992px) {
     .modal-lg {
         max-width: 1134px;
     }
 }
+
 .modal {
     &-header {
         border-bottom: none!important;
@@ -34,8 +40,15 @@ button {
     &-body {
         &__img {
             text-align: center;
+            img {
+                width: 100%;
+            }
         }
         &__text {
+            padding-right: 3rem!important;
+            @media (max-width: 576px) {
+                padding-right: 0px!important;
+            }
             &-header {
                 font-size: 26px;
                 font-weight: bold;
@@ -44,6 +57,11 @@ button {
                 line-height: normal;
                 letter-spacing: normal;
                 color: #000000;
+                padding-right: 3rem!important;
+                @media (max-width: 576px) {
+                    margin-top: 20px;
+                    padding-right: 0px!important;
+                }
             }
             &-body {
                 font-size: 20px;
@@ -53,6 +71,9 @@ button {
                 line-height: 1.1;
                 letter-spacing: normal;
                 color: #000000;
+                @media (max-width: 576px) {
+                    font-size: 17px;
+                }
             }
             &-body_details {
                 font-size: 13px;
@@ -70,4 +91,14 @@ button {
     }
 }
 
+.custom_px-5_mx-0 {
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+    margin-left: 0!important; 
+    margin-right: 0!important;
+    @media (max-width: 576px) {
+        margin: 0px!important;
+        padding: 0px!important;
+    }
+}
 $black:#282b2d

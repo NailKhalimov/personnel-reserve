@@ -656,7 +656,8 @@
   margin-left: -90px;
   margin-bottom: 17px;
   @media (max-width: 576px){
-     
+    margin-left: -90px;
+    margin-bottom: 17px;
   }
   &.blue {
     background: #2f4493;
@@ -718,7 +719,7 @@
     @media (max-width: 576px){
       padding-right: 30px;
     }
-    @media (min-width: 576px) {
+    @media (max-width: 576px) {
       padding: 0px;
       margin: 0px;
     }
@@ -790,6 +791,7 @@
     line-height: normal;
     color: rgba(255, 255, 255, 0.39);
     margin-bottom: 15px;
+    margin-left: 20px;
   }
   .app-checkbox {
     position: relative;
@@ -924,6 +926,9 @@
       line-height: normal;
       letter-spacing: normal;
       text-shadow: 2px 2px 14px #000000;
+      @media screen and (max-width: 576px){
+        left: 0px;
+      }
     }
     .slider-fade-left {
       position: absolute;
@@ -933,26 +938,29 @@
       width: 183px;
       height: 100%;
       background-image: linear-gradient(to left, rgba(53, 40, 93, 0), #35285d);
+      &.hide {
+        display: none!important;
+      }
       .btn-arrow-back {
-      position: absolute;
-      left: 46px;
-      top: 50%;
-      transform: translateY(-50%) rotate(180deg);
-      border: 0;
-      border-radius: 100%;
-      width: 66px;
-      height: 66px;
-      background-color: #812dbd;
-      display: flex;
-      z-index: 3;
-      &:hover {
+        position: absolute;
+        left: 46px;
+        top: 50%;
+        transform: translateY(-50%) rotate(180deg);
+        border: 0;
+        border-radius: 100%;
+        width: 66px;
+        height: 66px;
         background-color: #812dbd;
+        display: flex;
+        z-index: 3;
+        &:hover {
+          background-color: #812dbd;
+        }
+        img {
+          user-select: none;
+          margin: auto;
+        }
       }
-      img {
-        user-select: none;
-        margin: auto;
-      }
-    }
     }
     
     .slider-fade-right {
@@ -962,6 +970,9 @@
       z-index: 3;
       width: 183px;
       height: 100%;
+      &.hide {
+        display: none!important;
+      }
       background-image: linear-gradient(to right, rgba(53, 40, 93, 0), #35285d);
         .btn-arrow {
         position: absolute;
@@ -1012,6 +1023,9 @@
       .owl-stage {
         left: 183px;
         transition: left 0.3s ease;
+        @media screen and (max-width: 576px) {
+          left: 0px;
+        }
       }
     }
     
@@ -1035,6 +1049,9 @@
       width: 183px;
       height: 100%;
       background-image: linear-gradient(to left, rgba(53, 40, 93, 0), #35285d);
+      &.hide {
+        display: none!important;
+      }
       .btn-arrow-back {
       position: absolute;
       left: 46px;
@@ -1065,7 +1082,10 @@
       width: 183px;
       height: 100%;
       background-image: linear-gradient(to right, rgba(53, 40, 93, 0), #35285d);
-        .btn-arrow {
+      &.hide {
+        display: none!important;
+      }
+      .btn-arrow {
         position: absolute;
         right: 46px;
         top: 50%;
@@ -1084,7 +1104,6 @@
           user-select: none;
           margin: auto;
         }
-      // }
       }
       .slider-item {
         // width: 1440px;
@@ -1111,6 +1130,10 @@
       max-width: 342px;
       max-height: 221px;
       object-fit: contain;
+      @media screen and (max-width: 576px) {
+        max-width: 270px;
+        max-height: 221px;
+      }
     }
     .layer {
       background-color: rgba(8, 28, 2, 0.5);
@@ -1150,6 +1173,9 @@
 
   .slider-item {
     min-width: 600px;
+    @media screen and (max-width: 576px) {
+      min-width: 280px;
+    }
   }
 
   .owl-item {
@@ -1160,6 +1186,10 @@
         font-family: "Gotham Pro";
         max-width: 880px;
         min-width: 600px;
+        @media screen and (max-width: 576px) {
+          // max-width: 260px;
+          min-width: 0px;
+        }
       }
       .text-logo {
         position: relative;
@@ -1191,6 +1221,9 @@
     padding: 10px;
     .text {
       padding: 50px;
+      @media screen and (max-width: 576px) {
+        padding: 0px;
+      }
     }
     &::after {
       display: block;
@@ -1385,7 +1418,7 @@
   img {
     max-width: 100%;
   }
-  vertical-align: middle;
+  // vertical-align: middle;
 }
 
 .footer-block {

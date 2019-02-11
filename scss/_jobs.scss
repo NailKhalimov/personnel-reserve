@@ -20,6 +20,7 @@
      } 
   }
   &-container {
+    margin-bottom: 56px;
     &__content {
       font-size: 20px;
       font-weight: normal;
@@ -43,6 +44,8 @@
         box-shadow: 4px 0 10px 0 rgba(129, 45, 189, 0.32);
         background-color: #ffffff;
         margin: 10px 0px;
+        height: 69px;
+        width: 250px;
       }
       p {
         font-weight: bold;
@@ -54,6 +57,9 @@
           list-style: none;
         }
       }
+    }
+    .collapse-control {
+      margin-bottom: 12px;
     }
   }
 }

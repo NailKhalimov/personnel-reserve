@@ -15,6 +15,20 @@ button {
     cursor: pointer;
 }
 
+.bold {
+    font-weight: bold!important;
+}
+
+.remove-borders-nav-bar {
+    border-color: rgba(255,255,255, 0)!important;
+}
+
+.navbar-custom-padding {
+    @media screen and (max-width: 576px) {
+        padding: 17px 20px 0px 30px!important;
+    }
+}
+
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;

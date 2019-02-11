@@ -2,35 +2,49 @@
   max-width: 1317px;
   .collapse-control {
       background-color: #f1e3fa;
+      .row {
+        min-height: 70px;
+        vertical-align: middle;
+      }
     a {
       width: 100%;
       display: block;
-      font-family: 'Gotham Pro Bold';
       background-color: #f1e3fa;
-      padding-left: 19px;
-      padding-top: 7px;
-      padding-bottom: 9px;
       font-size: 20px;
-      font-weight: 500;
-      line-height: 2;
-      color: #282b2d;
-      img {
-        margin-left: 8px;
-      }
-     } 
-  }
-  &-container {
-    margin-bottom: 56px;
-    &__content {
-      font-size: 20px;
-      font-weight: normal;
+      font-weight: bold;
       font-style: normal;
       font-stretch: normal;
       line-height: 1.85;
       letter-spacing: normal;
       color: #000000;
-      margin-left: 3rem!important;
-      margin-top: .5rem!important;
+      min-height: 70px;
+      @media screen and (max-width: 576px) {
+        text-align: center;
+      }
+      img {
+        padding: 10px 20px 10px 30px;
+        transform: rotateX(180deg);
+        &.rotate {
+          transform: rotateX(0deg)
+        }
+      }
+    }
+  }
+  &-container {
+    margin-bottom: 56px;
+    &__job {
+      &-header {
+        padding: 16px 0px 13px 29px;
+        @media screen and (max-width: 576px) {
+          padding: 16px 0px 13px 0px;
+        }
+      }
+      &-salary {
+        padding: 16px 0px 13px 29px;
+      }
+    }
+    &__content {
+      margin-left: 30px;
       @media (max-width: 576px) {
         margin-left: 0px!important;
         margin-top: 0px!important;
@@ -48,7 +62,13 @@
         width: 250px;
       }
       p {
-        font-weight: bold;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.85;
+        letter-spacing: normal;
+        color: #000000;
       }
       ul {
         li {

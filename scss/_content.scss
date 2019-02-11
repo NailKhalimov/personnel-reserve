@@ -901,6 +901,10 @@
 
   img {
     user-select: none;
+    @media screen and (max-width: 576px) {
+      min-height: 200px;
+      object-fit: cover;
+    }
   }
   
   .apply-btn-custom {
@@ -928,7 +932,8 @@
       text-shadow: 2px 2px 14px #000000;
       @media screen and (max-width: 576px){
         left: 0px;
-        font-size: 45px;
+        font-size: 30px;
+        bottom: 10px;
       }
     }
     .slider-fade-left {
@@ -1398,6 +1403,9 @@
     }
   }
   .purple-menu_container {
+    @media screen and (max-width: 576px) {
+      margin-top: 20px;
+    }
     .menu-first-lvl {
       display: none!important;
       &.show {

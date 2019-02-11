@@ -10,14 +10,14 @@
     line-height: normal;
     letter-spacing: normal;
     @media screen and (max-width: 576px) {
-        max-width: 290px;
+        max-width: 320px;
         object-fit: contain;
     }
     img {
       max-width: 342px;
       max-height: 342px;
       @media screen and (max-width: 576px) {
-        max-width: 290px!important;
+        max-width: 320px!important;
         max-height: 221px;
         object-fit: contain;
       }
@@ -94,7 +94,9 @@
 
 .news {
   .heading-highlighted {
-    margin-left: 77px;
+    @media screen and (max-width: 576px) {
+    margin-left: 67px;
+    }
   }
 }
 

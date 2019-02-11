@@ -3,7 +3,6 @@
   .container-fluid .kr-slider-container {
     position: relative;
   }
-
   .slider-item {
     max-width: 342px;
     font-style: normal;
@@ -11,14 +10,14 @@
     line-height: normal;
     letter-spacing: normal;
     @media screen and (max-width: 576px) {
-        max-width: 270px;
+        max-width: 290px;
         object-fit: contain;
     }
     img {
       max-width: 342px;
       max-height: 342px;
       @media screen and (max-width: 576px) {
-        max-width: 270px;
+        max-width: 290px!important;
         max-height: 221px;
         object-fit: contain;
       }
@@ -39,7 +38,6 @@
         left: 0px;
       }
     }
-
     .text {
       object-fit: contain;
       font-size: 20px;
@@ -48,13 +46,14 @@
       margin-top: 20px;
       @media (max-width:576px) {
         margin-left: 23px;
+        max-width: 280px!important;
       }
     }
   }
   .heading-highlighted{
     margin-left: 134px;
-    @media (max-width:576px) {
-      margin: 0px;
+    @media (max-width: 576px) {
+      margin-left: 67px;
     }
   }
   .slider-item .name {
@@ -90,6 +89,13 @@
 }
 .events {
   background-color: #35285d;
+  padding-bottom: 30px;
+}
+
+.news {
+  .heading-highlighted {
+    margin-left: 77px;
+  }
 }
 
 /*--------------------------------------------EVENTS CLASSES--------------------------------------------*/

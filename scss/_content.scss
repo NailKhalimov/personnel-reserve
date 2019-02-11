@@ -928,6 +928,7 @@
       text-shadow: 2px 2px 14px #000000;
       @media screen and (max-width: 576px){
         left: 0px;
+        font-size: 45px;
       }
     }
     .slider-fade-left {
@@ -1241,6 +1242,9 @@
   }
   .heading-highlighted {
     margin-left: 134px;
+    @media screen and (max-width: 576px) {
+      margin-left: 67px;
+    }
   }
 
   .container-fluid {
@@ -1251,8 +1255,8 @@
 .mediateka {
   .heading-highlighted {
     margin-left: 134px;
-    @media (max-width:576px) {
-      margin: 0px;
+    @media (max-width: 576px) {
+      margin-left: 67px;
     }
   }
   .image-container {
@@ -1453,7 +1457,8 @@
             margin-top: 10px;
           }
           .col-sm-4:last-child{ 
-            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
           }
         }
         img {
@@ -1467,6 +1472,11 @@
     }
   }
 }
+.flex__column-reverse {
+      @media screen and (max-width: 576px){
+        flex-direction: column-reverse;
+      }
+    }
 
 .custom_remove-margings {
   margin: 0px!important;

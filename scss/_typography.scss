@@ -4,6 +4,9 @@
     line-height: 32px;
     color: #0cab5c;
     position: relative;
+    @media (max-width: 576px) {
+        font-size: 25px;
+    }
     &:before{
         position: absolute;
         content: '';
@@ -13,7 +16,8 @@
         box-shadow: 0 6px 12px 0 rgba(11, 112, 62, 0.23);
         transform: translateX(-96px) translateY(10px);
         @media (max-width: 576px) {
-            display: none;
+            width: 60px;
+            transform: translateX(-66px) translateY(10px);
         }
     }
 

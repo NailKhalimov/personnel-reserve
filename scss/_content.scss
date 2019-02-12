@@ -1224,6 +1224,10 @@
         line-height: normal;
         letter-spacing: normal;
         color: #000000;
+        @media screen and (max-width: 576px) {
+          bottom: -11px;
+          left: 90px;
+        }
       }
     }
   }

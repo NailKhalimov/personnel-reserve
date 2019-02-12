@@ -50,6 +50,7 @@ header {
       }
     }
   }
+
   .apply-btn {
     position: absolute;
     right: 35px;
@@ -97,7 +98,9 @@ header {
 
     }
   }
-
+  .navbar-toggler-icon {
+    background-image: url(../assets/images/burger-menu-icon.svg)!important; 
+  }
   // .header-element-with-lines::after {
   //   display: block;
   //   content: "";

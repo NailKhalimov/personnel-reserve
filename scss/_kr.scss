@@ -4,13 +4,12 @@
     position: relative;
     .text {
       position: absolute;
-      left: 0px;
+      left: 50%;
       bottom: 42px;
-      // bottom: 42px;
-      // left: 144px;
       font-size: 55px;
       font-weight: bold;
       color: #fff;
+      transform: translateX(-50%);
       @media (max-width: 576px) {
         bottom: 0px;
         transform: translateX(9%);

@@ -269,11 +269,12 @@ header {
     position: relative; }
     .kr__main-promo .text {
       position: absolute;
-      left: 0px;
+      left: 50%;
       bottom: 42px;
       font-size: 55px;
       font-weight: bold;
-      color: #fff; }
+      color: #fff;
+      transform: translateX(-50%); }
       @media (max-width: 576px) {
         .kr__main-promo .text {
           bottom: 0px;

@@ -1441,17 +1441,17 @@ header {
   padding-left: 0;
   padding-right: 0;
   position: relative; }
-  .slider-block .slider-container .slider-fade {
+  .slider-block .slider-container .slider-fade-left {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
     z-index: 3;
     width: 183px;
     height: 319px;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff); }
-    .slider-block .slider-container .slider-fade .btn-arrow {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #ffffff); }
+    .slider-block .slider-container .slider-fade-left .btn-arrow {
       position: absolute;
-      right: 46px;
+      left: 46px;
       top: 28px;
       border: 0;
       border-radius: 100%;
@@ -1459,9 +1459,33 @@ header {
       height: 66px;
       background-color: #0cab5c;
       display: flex; }
-      .slider-block .slider-container .slider-fade .btn-arrow:hover {
+      .slider-block .slider-container .slider-fade-left .btn-arrow:hover {
         background-color: #076d3a; }
-      .slider-block .slider-container .slider-fade .btn-arrow img {
+      .slider-block .slider-container .slider-fade-left .btn-arrow img {
+        margin: auto;
+        object-fit: cover;
+        transform: rotate(180deg); }
+  .slider-block .slider-container .slider-fade-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    width: 183px;
+    height: 319px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff); }
+    .slider-block .slider-container .slider-fade-right .btn-arrow {
+      position: absolute;
+      right: 46px;
+      top: 68px;
+      border: 0;
+      border-radius: 100%;
+      width: 66px;
+      height: 66px;
+      background-color: #0cab5c;
+      display: flex; }
+      .slider-block .slider-container .slider-fade-right .btn-arrow:hover {
+        background-color: #076d3a; }
+      .slider-block .slider-container .slider-fade-right .btn-arrow img {
         margin: auto;
         object-fit: cover; }
   .slider-block .slider-container .owl-carousel {

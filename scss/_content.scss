@@ -465,7 +465,35 @@
     padding-left: 0;
     padding-right: 0;
     position: relative;
-    .slider-fade {
+    .slider-fade-left {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 3;
+      width: 183px;
+      height: 319px;
+      background: linear-gradient(to left, rgba(255, 255, 255, 0), #ffffff);
+      .btn-arrow {
+        position: absolute;
+        left: 46px;
+        top: 28px;
+        border: 0;
+        border-radius: 100%;
+        width: 66px;
+        height: 66px;
+        background-color: #0cab5c;
+        display: flex;
+        &:hover {
+          background-color: #076d3a;
+        }
+        img {
+          margin: auto;
+          object-fit: cover;
+          transform: rotate(180deg);
+        }
+      }
+    }
+    .slider-fade-right {
       position: absolute;
       right: 0;
       top: 0;
@@ -476,7 +504,7 @@
       .btn-arrow {
         position: absolute;
         right: 46px;
-        top: 28px;
+        top: 68px;
         border: 0;
         border-radius: 100%;
         width: 66px;

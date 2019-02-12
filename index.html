@@ -371,7 +371,12 @@
         </div>
     </div>
     <div class="container-fluid slider-container">
-        <div class="slider-fade">
+        <div class="slider-fade-left">
+            <button class="btn-arrow" id="sliderBtnPrev">
+                <img src="./assets/images/big-arrow.svg" alt="">
+            </button>
+        </div>
+        <div class="slider-fade-right">
             <button class="btn-arrow" id="sliderBtnNext">
                 <img src="./assets/images/big-arrow.svg" alt="">
             </button>
@@ -508,6 +513,9 @@
     })
     $('#sliderBtnNext').on('click', function () {
         $('.owl-carousel').trigger('next.owl.carousel')
+    })
+    $('#sliderBtnPrev').on('click', function () {
+        $('.owl-carousel').trigger('prev.owl.carousel')
     })
 </script>
 </body>

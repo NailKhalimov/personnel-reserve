@@ -2112,6 +2112,9 @@ header {
   left: -10px;
   width: 44px;
   height: 4px; }
+  @media screen and (max-width: 576px) {
+    .news .text .heading-highlighted:before {
+      left: 0px; } }
 
 .opinion .slider-item {
   min-width: 600px; }

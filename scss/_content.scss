@@ -656,7 +656,7 @@
   margin-left: -90px;
   margin-bottom: 17px;
   @media (max-width: 576px){
-    margin-left: -90px;
+    margin-left: 0px;
     margin-bottom: 17px;
   }
   &.blue {
@@ -783,7 +783,10 @@
     line-height: normal;
     color: #ffffff;
     margin-bottom: 15px;
-    margin-left: 20px; 
+    margin-left: 20px;
+    @media screen and (max-width: 576px) {
+      padding-top: 20px;
+    }
   }
   &__sublabel {
     font-size: 12px;
@@ -792,6 +795,9 @@
     color: rgba(255, 255, 255, 0.39);
     margin-bottom: 15px;
     margin-left: 20px;
+  }
+  &.heading-highlighted {
+    margin-left: 60px;
   }
   .app-checkbox {
     position: relative;

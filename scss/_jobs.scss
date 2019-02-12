@@ -51,15 +51,17 @@
         font-size: 15px;
       }
       &-button-submit {
+        text-align: center;
         font-size: 20px;
         border: 2px solid #812dbd;
-        color: #812dbd;
+        color: #812dbd!important;
         border-radius: 10px;
         box-shadow: 4px 0 10px 0 rgba(129, 45, 189, 0.32);
         background-color: #ffffff;
         margin: 10px 0px;
         height: 69px;
         width: 250px;
+        padding: 23px;
       }
       p {
         font-size: 20px;

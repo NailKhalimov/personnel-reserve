@@ -734,7 +734,7 @@ header {
   @media screen and (max-width: 576px) {
     .events .slider-item,
     .news .slider-item {
-      min-width: 320px;
+      max-width: 320px;
       object-fit: contain; } }
   .events .slider-item img,
   .news .slider-item img {
@@ -762,7 +762,7 @@ header {
       .events .slider-item .date,
       .news .slider-item .date {
         top: 125px;
-        left: 40px; } }
+        left: 28px; } }
   .events .slider-item .text,
   .news .slider-item .text {
     object-fit: contain;
@@ -773,9 +773,8 @@ header {
     @media (max-width: 576px) {
       .events .slider-item .text,
       .news .slider-item .text {
-        margin-left: 50px;
-        max-width: 280px !important;
-        text-indent: 20px; } }
+        margin-left: 35px;
+        max-width: 280px !important; } }
 .events .slider-item .name,
 .news .slider-item .name {
   background: #cc4124;

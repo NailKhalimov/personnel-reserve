@@ -10,7 +10,7 @@
     line-height: normal;
     letter-spacing: normal;
     @media screen and (max-width: 576px) {
-        min-width: 320px;
+        max-width: 320px;
         object-fit: contain;
     }
     img {
@@ -35,7 +35,7 @@
       box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
       @media screen and (max-width: 576px) {
         top: 125px;
-        left: 40px;
+        left: 28px;
       }
     }
     .text {
@@ -45,9 +45,8 @@
       color: #ffffff;
       margin-top: 20px;
       @media (max-width:576px) {
-        margin-left: 50px;
+        margin-left: 35px;
         max-width: 280px!important;
-        text-indent: 20px;
       }
     }
   }

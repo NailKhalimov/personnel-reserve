@@ -4,7 +4,7 @@
   }
   &-container {
     &__element {
-      margin-bottom: 25px; 
+      margin-bottom: 25px;
       &-image {
         margin-left: 15px;
         max-width: 360px;
@@ -14,8 +14,8 @@
         }
       }
       &-text {
-        padding: 10px 25px 0px 30px; 
-        height: 229px;
+        padding: 10px 25px 20px 30px; 
+        min-height: 229px;
         max-width: 376px;
         background-color: #812dbd;
         h3 {
@@ -44,6 +44,12 @@
           }
         }
       }
+    }
+  }
+  .heading-highlighted {
+    margin-left: 114px;
+    @media screen and (max-width: 576px) {
+      margin-left: 74px;
     }
   }
 }

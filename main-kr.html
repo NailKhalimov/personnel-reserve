@@ -328,7 +328,7 @@
     </div>
 
 </section>
-<section class="slider-block kr mb-5" id="slider">
+<section class="slider-block kr" id="slider">
     <div class="container">
         <div class="row ">
             <div class="col-12">
@@ -337,7 +337,12 @@
         </div>
     </div>
     <div class="container kr-slider-container">
-        <div class="slider-fade">
+        <div class="slider-fade-left">
+            <button class="btn-arrow" id="sliderBtnPrev">
+                <img src="./assets/images/big-arrow.svg" alt="">
+            </button>
+        </div>
+        <div class="slider-fade-right">
             <button class="btn-arrow" id="sliderBtnNext">
                 <img src="./assets/images/big-arrow.svg" alt="">
             </button>
@@ -431,7 +436,7 @@
             </div>
         </div>
     </div>
-    <div class="container kr__community mb-5">
+    <div class="container kr__community kr__community_centering-elements mb-5">
         <div class="row align-items-center">
             <div class="col-lg-4">
                 <img src="./assets/images/kr-partners/bitmap.png" class="img-fluid" alt="">
@@ -508,10 +513,14 @@
         dots:false,
         autoplay: true,
         autoplayTimeout: 3000,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        items: 1
     })
     $('#sliderBtnNext').on('click', function () {
         $('.owl-carousel').trigger('next.owl.carousel')
+    })
+    $('#sliderBtnPrev').on('click', function () {
+        $('.owl-carousel').trigger('prev.owl.carousel')
     })
 </script>
 </body>

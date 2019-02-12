@@ -71,6 +71,9 @@
       width: 100%;
       p {
         color: #fff;
+        @media screen and (max-width: 576px) {
+          margin-left: 15px!important;
+        }
       }
       .bold-text {
         font-weight: bold;

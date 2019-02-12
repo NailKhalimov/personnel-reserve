@@ -15,7 +15,7 @@
 
 <body class="">
 
-<!-- <header class="fixed">
+<header class="fixed">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="logo-container">
@@ -48,7 +48,7 @@
 
     </div>
     <button class="apply-btn">Подать заявку</button>
-</header> -->
+</header>
 
 <section class="promo-block">
     <div class="container-fluid">
@@ -509,7 +509,10 @@
     $('.owl-carousel').owlCarousel({
         margin: 76,
         autoWidth: true,
-        loop: false
+        loop: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
     })
     $('#sliderBtnNext').on('click', function () {
         $('.owl-carousel').trigger('next.owl.carousel')

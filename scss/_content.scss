@@ -1270,7 +1270,7 @@
         letter-spacing: normal;
         color: #000000;
         @media screen and (max-width: 576px) {
-          bottom: -11px;
+          bottom: -30px;
           left: 90px;
         }
       }
@@ -1299,12 +1299,6 @@
       left: 80px;
     }
   }
-  .heading-highlighted {
-    margin-left: 134px;
-    @media screen and (max-width: 576px) {
-      margin-left: 67px;
-    }
-  }
 
   .container-fluid {
     position: relative;
@@ -1312,12 +1306,6 @@
 }
 
 .mediateka {
-  .heading-highlighted {
-    margin-left: 134px;
-    @media (max-width: 576px) {
-      margin-left: 67px;
-    }
-  }
   .image-container {
     max-width: 100%;
     @media screen and (max-width:576px){
@@ -1350,6 +1338,9 @@
     background-color: #812dbd;
     display: flex;
     z-index: 2;
+    @media screen and (max-width: 576px) {
+      display: none;
+    }
     &:hover {
       background-color: #812dbd;
     }
@@ -1370,6 +1361,9 @@
     background-color: #812dbd;
     display: flex;
     z-index: 2;
+    @media screen and (max-width: 576px) {
+      display: none;
+    }
     &:hover {
       background-color: #812dbd;
     }

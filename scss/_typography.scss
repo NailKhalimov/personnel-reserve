@@ -4,8 +4,10 @@
     line-height: 32px;
     color: #0cab5c;
     position: relative;
+    margin-left: 134px;
     @media (max-width: 576px) {
-        font-size: 25px;
+      font-size: 25px;
+      margin-left: 74px;
     }
     &:before{
         position: absolute;

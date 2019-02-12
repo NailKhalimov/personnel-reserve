@@ -1596,12 +1596,14 @@ header {
       margin-left: 0px;
       margin-bottom: 17px; } }
   .kr-app.blue {
-    background: #2f4493; }
+    background: #2f4493;
+    padding-top: 30px; }
   .kr-app.pink {
-    background: #cf438e; }
+    background: #cf438e;
+    padding-top: 30px; }
   .kr-app.purple .kr-app__block:nth-of-type(1) {
     background: #35285d;
-    padding-top: 51px; }
+    padding-top: 30px; }
   .kr-app.purple .kr-app__block:nth-of-type(2) {
     background: #4a3d74; }
   .kr-app.purple .kr-app__block:nth-of-type(3) {
@@ -1707,6 +1709,13 @@ header {
     margin-left: 60px; }
   .kr-app .app-checkbox {
     position: relative; }
+    @media screen and (max-width: 576px) {
+      .kr-app .app-checkbox {
+        padding-left: 16px;
+        padding-right: 10px; }
+        .kr-app .app-checkbox:first-child {
+          margin-left: 15px;
+          margin-bottom: 20px; } }
     .kr-app .app-checkbox input {
       display: none; }
       .kr-app .app-checkbox input:checked + label:after {
@@ -1746,6 +1755,10 @@ header {
     display: none; }
     .kr-app .app-radio input:checked + label:before {
       border-width: 4px; }
+  @media screen and (max-width: 576px) {
+    .kr-app .app-radio {
+      padding-left: 20px;
+      padding-right: 20px; } }
   .kr-app .app-radio label {
     padding-left: 22px;
     font-size: 12px;
@@ -1766,6 +1779,10 @@ header {
       border: 2px solid white;
       transition: all .2s;
       background: transparent; }
+      @media screen and (max-width: 576px) {
+        .kr-app .app-radio label:before {
+          left: 36px;
+          top: 0px; } }
 
 .kr-submit {
   background: #812dbd;

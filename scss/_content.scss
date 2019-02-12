@@ -661,11 +661,13 @@
   }
   &.blue {
     background: #2f4493;
+    padding-top: 30px;
     .kr-app__block {
     }
   }
   &.pink {
     background: #cf438e;
+    padding-top: 30px;
     .kr-app__block {
       
     }
@@ -674,7 +676,7 @@
     
     .kr-app__block:nth-of-type(1) {
       background: #35285d;
-      padding-top: 51px;
+      padding-top: 30px;
     }
     .kr-app__block:nth-of-type(2) {
       background: #4a3d74;
@@ -800,6 +802,14 @@
   }
   .app-checkbox {
     position: relative;
+    @media screen and (max-width: 576px){
+      &:first-child {
+        margin-left: 15px;
+        margin-bottom: 20px;
+      }
+      padding-left: 16px;
+      padding-right: 10px;
+    }
     input {
       display: none;
       &:checked {
@@ -855,7 +865,10 @@
         }
       }
     }
-
+    @media screen and (max-width: 576px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
     label {
       padding-left: 22px;
       font-size: 12px;
@@ -876,6 +889,10 @@
         border: 2px solid white;
         transition: all .2s;
         background: transparent;
+        @media screen and (max-width: 576px) {
+          left: 36px;
+          top: 0px;
+        }
       }
     }
   }

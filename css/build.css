@@ -1594,16 +1594,8 @@ header {
       margin-bottom: 17px; } }
   .kr-app.blue {
     background: #2f4493; }
-    .kr-app.blue .kr-app__block {
-      padding-top: 51px;
-      padding-bottom: 50px;
-      margin-left: 30px; }
   .kr-app.pink {
     background: #cf438e; }
-    .kr-app.pink .kr-app__block {
-      padding-top: 51px;
-      padding-bottom: 50px;
-      margin-left: 30px; }
   .kr-app.purple .kr-app__block:nth-of-type(1) {
     background: #35285d;
     padding-top: 51px; }
@@ -1642,8 +1634,11 @@ header {
     .kr-app__block .input-container {
       margin-bottom: 30px;
       position: relative;
-      margin-left: 20px;
-      margin-right: 20px; }
+      max-width: 750px; }
+      @media screen and (max-width: 576px) {
+        .kr-app__block .input-container {
+          margin-left: 20px;
+          margin-right: 20px; } }
       .kr-app__block .input-container label {
         position: absolute;
         color: #c5e1c3;
@@ -1679,8 +1674,10 @@ header {
     letter-spacing: normal;
     color: #ffffff;
     margin-bottom: 40px;
-    margin-left: 20px;
     position: relative; }
+    @media screen and (max-width: 576px) {
+      .kr-app__header {
+        margin-left: 20px; } }
     .kr-app__header .num {
       position: absolute;
       left: -38px; }
@@ -1689,18 +1686,20 @@ header {
     font-weight: bold;
     line-height: normal;
     color: #ffffff;
-    margin-bottom: 15px;
-    margin-left: 20px; }
+    margin-bottom: 15px; }
     @media screen and (max-width: 576px) {
       .kr-app__label {
-        padding-top: 20px; } }
+        padding-top: 20px;
+        margin-left: 20px; } }
   .kr-app__sublabel {
     font-size: 12px;
     font-weight: bold;
     line-height: normal;
     color: rgba(255, 255, 255, 0.39);
-    margin-bottom: 15px;
-    margin-left: 20px; }
+    margin-bottom: 15px; }
+    @media screen and (max-width: 576px) {
+      .kr-app__sublabel {
+        margin-left: 20px; } }
   .kr-app.heading-highlighted {
     margin-left: 60px; }
   .kr-app .app-checkbox {

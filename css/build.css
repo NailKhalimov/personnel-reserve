@@ -221,6 +221,9 @@ header {
     margin-top: -6px; }
   .purple-menu .pl {
     padding-left: 56px; }
+  @media screen and (max-width: 576px) {
+    .purple-menu .logo {
+      margin-bottom: 0px !important; } }
   .purple-menu a {
     display: inline-block;
     margin-right: 77px;
@@ -229,6 +232,10 @@ header {
     line-height: normal;
     position: relative;
     color: #ffffff; }
+    @media screen and (max-width: 576px) {
+      .purple-menu a {
+        display: block;
+        margin-bottom: 20px; } }
     .purple-menu a:last-of-type {
       margin-right: 0; }
   .purple-menu .navbar-toggler-icon {
@@ -269,9 +276,11 @@ header {
       color: #fff; }
       @media (max-width: 576px) {
         .kr__main-promo .text {
-          position: none;
-          font-size: 30px;
-          bottom: 0px; } }
+          bottom: 0px;
+          transform: translateX(9%);
+          font-size: 22px;
+          max-width: 100%;
+          left: 30px; } }
   .kr__community {
     padding-left: 57px;
     padding-right: 57px; }
@@ -2004,7 +2013,7 @@ header {
   .slider-container .slider-fade-left,
   .kr-slider-container .slider-fade-left {
     position: absolute;
-    left: 0;
+    left: -1px;
     top: 0;
     z-index: 3;
     width: 183px;
@@ -2036,7 +2045,7 @@ header {
   .slider-container .slider-fade-right,
   .kr-slider-container .slider-fade-right {
     position: absolute;
-    right: 0;
+    right: -1px;
     top: 0;
     z-index: 3;
     width: 183px;

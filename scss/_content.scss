@@ -1099,7 +1099,7 @@
     }
     .slider-fade-left {
       position: absolute;
-      left: 0;
+      left: -1px;
       top: 0;
       z-index: 3;
       width: 183px;
@@ -1109,17 +1109,17 @@
         display: none!important;
       }
       .btn-arrow-back {
-      position: absolute;
-      left: 46px;
-      top: 50%;
-      transform: translateY(-50%) rotate(180deg);
-      border: 0;
-      border-radius: 100%;
-      width: 66px;
-      height: 66px;
-      background-color: #812dbd;
-      display: flex;
-      z-index: 3;
+        position: absolute;
+        left: 46px;
+        top: 50%;
+        transform: translateY(-50%) rotate(180deg);
+        border: 0;
+        border-radius: 100%;
+        width: 66px;
+        height: 66px;
+        background-color: #812dbd;
+        display: flex;
+        z-index: 3;
       &:hover {
         background-color: #812dbd;
       }
@@ -1132,7 +1132,7 @@
     
     .slider-fade-right {
       position: absolute;
-      right: 0;
+      right: -1px;
       top: 0;
       z-index: 3;
       width: 183px;

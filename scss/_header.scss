@@ -83,6 +83,11 @@ header {
   .pl{
     padding-left: 56px;
   }
+  .logo {
+    @media screen and (max-width: 576px) {
+      margin-bottom: 0px!important;
+    }
+  }
   a {
     display: inline-block;
     margin-right: 77px;
@@ -91,6 +96,10 @@ header {
     line-height: normal;
     position: relative;
     color: #ffffff;
+    @media screen and (max-width: 576px) {
+      display: block;
+      margin-bottom: 20px;
+    }
     &:last-of-type{
       margin-right: 0;
     }

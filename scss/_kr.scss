@@ -12,9 +12,11 @@
       font-weight: bold;
       color: #fff;
       @media (max-width: 576px) {
-        position: none;
-        font-size: 30px;
         bottom: 0px;
+        transform: translateX(9%);
+        font-size: 22px;
+        max-width: 100%;
+        left: 30px;
       }
     }
   }

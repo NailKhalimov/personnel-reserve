@@ -961,8 +961,7 @@ header {
       object-fit: contain;
       width: 100%; }
   .trainers-container__element-text {
-    padding-left: 30px;
-    padding-right: 5px;
+    padding: 10px 25px 0px 30px;
     height: 229px;
     max-width: 376px;
     background-color: #812dbd; }

@@ -5,3 +5,10 @@ $('.navbar-toggler').on('click', function(){
     $('.menu-first-lvl').removeClass('show')
   }
 })
+
+$('.menu-first-lvl').find('li').on('click', function(e) {
+  if (!$(this).hasClass('already-clicked') && !$(this).hasClass('second-lvl-menu_element')) {
+    e.preventDefault();
+    $(this).addClass('already-clicked')
+  }
+})

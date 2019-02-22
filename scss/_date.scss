@@ -1,4 +1,8 @@
 .date-news {
+  min-height: calc(100vh - 315px);
+  @media screen and (max-width: 576px) {
+    min-height: unset;
+  }
   .head-text {
     font-size: 55px;
     font-weight: bold;

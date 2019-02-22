@@ -90,7 +90,11 @@ button {
       margin: 0px !important;
       padding: 0px !important; } }
 
-.heading-highlighted {
+.reset-padding {
+  padding: 0px; }
+
+.container-fluid .heading-highlighted,
+.container .heading-highlighted {
   font-size: 36px;
   font-weight: bold;
   line-height: 32px;
@@ -98,10 +102,12 @@ button {
   position: relative;
   margin-left: 134px; }
   @media (max-width: 576px) {
-    .heading-highlighted {
+    .container-fluid .heading-highlighted,
+    .container .heading-highlighted {
       font-size: 25px;
       margin-left: 74px; } }
-  .heading-highlighted:before {
+  .container-fluid .heading-highlighted:before,
+  .container .heading-highlighted:before {
     position: absolute;
     content: '';
     width: 80px;
@@ -110,34 +116,51 @@ button {
     box-shadow: 0 6px 12px 0 rgba(11, 112, 62, 0.23);
     transform: translateX(-96px) translateY(10px); }
     @media (max-width: 576px) {
-      .heading-highlighted:before {
+      .container-fluid .heading-highlighted:before,
+      .container .heading-highlighted:before {
         width: 60px;
         transform: translateX(-66px) translateY(10px); } }
-  .heading-highlighted.purple {
+  .container-fluid .heading-highlighted.purple,
+  .container .heading-highlighted.purple {
     color: #812dbd; }
-    .heading-highlighted.purple:before {
+    .container-fluid .heading-highlighted.purple:before,
+    .container .heading-highlighted.purple:before {
       background-color: #812dbd;
       box-shadow: 0 4px 10px 0 rgba(118, 12, 170, 0.34); }
-  .heading-highlighted.blue {
+  .container-fluid .heading-highlighted.blue,
+  .container .heading-highlighted.blue {
     color: #304493; }
-    .heading-highlighted.blue:before {
+    .container-fluid .heading-highlighted.blue:before,
+    .container .heading-highlighted.blue:before {
       box-shadow: 0 4px 10px 0 rgba(48, 68, 147, 0.39);
       background-color: #304493; }
-  .heading-highlighted.pink {
+  .container-fluid .heading-highlighted.pink,
+  .container .heading-highlighted.pink {
     color: #d0428e; }
-    .heading-highlighted.pink:before {
+    .container-fluid .heading-highlighted.pink:before,
+    .container .heading-highlighted.pink:before {
       box-shadow: 0 4px 10px 0 rgba(207, 65, 142, 0.37);
       background-color: #d0428d; }
-  .heading-highlighted.orange {
+  .container-fluid .heading-highlighted.orange,
+  .container .heading-highlighted.orange {
     color: #cc4124; }
-    .heading-highlighted.orange:before {
+    .container-fluid .heading-highlighted.orange:before,
+    .container .heading-highlighted.orange:before {
       box-shadow: 0 4px 10px 0 rgba(204, 65, 36, 0.37);
       background-color: #cc4124; }
-  .heading-highlighted.white {
+  .container-fluid .heading-highlighted.white,
+  .container .heading-highlighted.white {
     color: white; }
-    .heading-highlighted.white:before {
+    .container-fluid .heading-highlighted.white:before,
+    .container .heading-highlighted.white:before {
       box-shadow: none;
       background: white; }
+
+.container .heading-highlighted {
+  margin-left: 0px; }
+  @media screen and (max-width: 576px) {
+    .container .heading-highlighted {
+      margin-left: 74px; } }
 
 .main-text {
   object-fit: contain;
@@ -235,7 +258,9 @@ header {
     @media screen and (max-width: 576px) {
       .purple-menu a {
         display: block;
-        margin-bottom: 20px; } }
+        margin-bottom: 20px; }
+        .purple-menu a.first-element {
+          margin-top: 20px; } }
     .purple-menu a:last-of-type {
       margin-right: 0; }
   .purple-menu .navbar-toggler-icon {
@@ -509,9 +534,19 @@ header {
     position: relative;
     min-height: 450px;
     width: 260px !important; }
+    @media screen and (max-width: 576px) {
+      .slider-block.kr .slider-item {
+        width: unset !important;
+        max-width: 100%; } }
     .slider-block.kr .slider-item img {
       width: 250px !important;
       height: 344px !important; }
+      @media screen and (max-width: 576px) {
+        .slider-block.kr .slider-item img {
+          width: unset !important;
+          max-width: 100%;
+          object-fit: contain;
+          margin: 0 auto; } }
     .slider-block.kr .slider-item .name {
       background: #cc4124;
       position: absolute;
@@ -526,6 +561,9 @@ header {
       line-height: normal;
       letter-spacing: normal;
       color: #ffffff; }
+      @media screen and (max-width: 576px) {
+        .slider-block.kr .slider-item .name {
+          transform: translateY(90%) translateX(40%); } }
 
 .about-us-page .who-are-we img {
   object-fit: cover;

@@ -1,4 +1,5 @@
-(function(){
+function floatLabel() {
+    console.log(window)
     $('.input-container').each(function () {
         var label = $(this).find('label');
         var textarea = $(this).find('textarea');
@@ -61,5 +62,4 @@
 
         return returnedValue;
     }
-
-})();
+}

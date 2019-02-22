@@ -288,9 +288,19 @@
       position: relative;
       min-height: 450px;
       width: 260px !important;
+      @media screen and (max-width: 576px){
+        width: unset!important;
+        max-width: 100%;
+      }
       img{
         width: 250px !important;
         height: 344px !important;
+        @media screen and (max-width: 576px) {
+          width: unset!important;
+          max-width: 100%;
+          object-fit: contain;
+          margin: 0 auto;
+        }
       }
       .name{
         background: #cc4124;
@@ -306,6 +316,9 @@
         line-height: normal;
         letter-spacing: normal;
         color: #ffffff;
+        @media screen and (max-width: 576px) {
+           transform: translateY(90%) translateX(40%);
+        }
       }
     }
   }

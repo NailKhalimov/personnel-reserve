@@ -99,6 +99,9 @@ header {
     @media screen and (max-width: 576px) {
       display: block;
       margin-bottom: 20px;
+      &.first-element { 
+        margin-top: 20px;
+      }
     }
     &:last-of-type{
       margin-right: 0;

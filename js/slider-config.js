@@ -1,4 +1,4 @@
-(function(){
+function sliderConfig() {
   function setConfig() {
     if ($(window).width() < 576) {
       $('.slider-fade-left').addClass('hide');
@@ -111,16 +111,5 @@
 
     let $this = $(this);
     let $element = $(this).find('.owl-item');
-
-    // if($element.filter(':first-child').hasClass('active') || !$element.filter(':last-child').hasClass('active')) {
-    //   $this
-    //     .find('.owl-stage')
-    //     .css({left: '183px'})
-    // } else if ($element.filter(':last-child').hasClass('active') || !$element.filter(':first-child').hasClass('active')) {
-    //   $this
-    //     .find('.owl-stage')
-    //     .css({ transition: 'left 0.3s ease 0.3s', left: '-183px' }) 
-
-    // }
   });
-  }());
+}

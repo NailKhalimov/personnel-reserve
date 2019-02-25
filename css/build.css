@@ -538,7 +538,8 @@ header {
           width: unset !important;
           max-width: 100%;
           object-fit: contain;
-          margin: 0 auto; } }
+          margin: 0 auto;
+          transform: translateX(-5%); } }
     .slider-block.kr .slider-item .name {
       background: #cc4124;
       position: absolute;
@@ -555,7 +556,7 @@ header {
       color: #ffffff; }
       @media screen and (max-width: 576px) {
         .slider-block.kr .slider-item .name {
-          transform: translateY(90%) translateX(40%); } }
+          transform: translateY(90%) translateX(30%); } }
 
 .about-us-page .who-are-we img {
   object-fit: cover;

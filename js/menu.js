@@ -8,7 +8,7 @@ function menu() {
   })
 
   $('.menu-first-lvl').find('li').on('click', function(e) {
-    if (!$(this).hasClass('already-clicked') && !$(this).hasClass('second-lvl-menu_element')) {
+    if (!$(this).hasClass('already-clicked') && !$(this).hasClass('second-lvl-menu_element') && $(window).width() < 576) {
       e.preventDefault();
       $(this).addClass('already-clicked')
     }

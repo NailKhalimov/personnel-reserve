@@ -290,6 +290,7 @@
           max-width: 100%;
           object-fit: contain;
           margin: 0 auto;
+          transform: translateX(-5%);
         }
       }
       .name{
@@ -307,7 +308,7 @@
         letter-spacing: normal;
         color: #ffffff;
         @media screen and (max-width: 576px) {
-           transform: translateY(90%) translateX(40%);
+           transform: translateY(90%) translateX(30%);
         }
       }
     }

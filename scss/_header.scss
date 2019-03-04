@@ -28,11 +28,17 @@ header {
       margin-bottom: 0;
       display: flex;
       justify-content: flex-end;
+      @media screen and (max-width: 576px) {
+        flex-direction: column;
+      }
       li {
         display: inline;
         margin-right: 35px;
         @media(max-width: 1255px) {
           margin-right: 5px;
+        }
+        @media screen and (max-width: 576px) {
+          margin-bottom: 10px;
         }
         &:last-of-type {
           margin-right: 0;

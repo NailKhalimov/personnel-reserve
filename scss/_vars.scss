@@ -116,7 +116,24 @@ button {
     }
 }
 
-.reset-padding {
-    padding: 0px;
+.reset-paddings {
+    @media screen and (max-width: 576px) {
+        padding: 0px!important;
+    }
 }
+
+.remove-margins {
+    margin: 0px!important;
+}
+
+.margin-between-cols {
+    margin-bottom: 20px;
+}
+
+.custom_offset-1 {
+    @media screen and (max-width: 576px){
+        margin-left: 8.333333%; 
+    }
+}
+
 $black:#282b2d

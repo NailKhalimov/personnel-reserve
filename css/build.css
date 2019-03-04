@@ -586,7 +586,8 @@ header {
       font-stretch: normal;
       line-height: normal;
       letter-spacing: normal;
-      color: #ffffff; }
+      color: #ffffff;
+      max-width: 280px; }
       @media screen and (max-width: 576px) {
         .slider-block.kr .slider-item .name {
           transform: translateY(90%) translateX(20%); } }

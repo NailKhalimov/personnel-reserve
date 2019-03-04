@@ -1013,6 +1013,9 @@
       &.hide {
         display: none!important;
       }
+      @media screen and (max-width: 576px) {
+        display: none;
+      }
       .btn-arrow-back {
         position: absolute;
         left: 46px;
@@ -1044,6 +1047,9 @@
       height: 100%;
       &.hide {
         display: none!important;
+      }
+      @media screen and (max-width: 576px) {
+        display: none;
       }
       background-image: linear-gradient(to right, rgba(53, 40, 93, 0), #35285d);
         .btn-arrow {
@@ -1124,6 +1130,9 @@
       &.hide {
         display: none!important;
       }
+      @media screen and (max-width: 576px) {
+        display: none;
+      }
       .btn-arrow-back {
         position: absolute;
         left: 46px;
@@ -1156,6 +1165,9 @@
       background-image: linear-gradient(to right, rgba(53, 40, 93, 0), #35285d);
       &.hide {
         display: none!important;
+      }
+      @media screen and (max-width: 576px) {
+        display: none;
       }
       .btn-arrow {
         position: absolute;

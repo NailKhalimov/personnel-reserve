@@ -1,115 +1,31 @@
-function sliderConfig() {
-  function setConfig() {
-    if ($(window).width() < 576) {
-      $('.slider-fade-left').addClass('hide');
-      $('.slider-fade-right').addClass('hide');
+function startSlider() {
+  if ($(window).width() < 576) {
+    $('.owl-carousel').owlCarousel({
+      margin: 69,
+      loop: false,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      items: 1
+    })
 
-      $('.owl-carousel:not(:first)').trigger('change.owl.carousel', {
-        autoWidth: false
-      })
 
-      $('.owl-carousel:not(:first)').each(function () {
-        var $this = $(this);
-
-        $this.owlCarousel({
-          margin: 69,
-          loop: false,
-          dots: false,
-          autoplay: true,
-          autoplayTimeout: 3000,
-          autoplayHoverPause: true,
-          items: 1
-        });
-      });
-    } else {
-      console.log('work')
-      $('.slider-fade-left').removeClass('hide');
-      $('.slider-fade-right').removeClass('hide');
-      $('.owl-carousel:not(:first)').each(function () {
-        var $this = $(this);
-
-        $this.owlCarousel({
-          margin: 69,
-          autoWidth: true,
-          loop: false,
-          dots: false,
-          autoplay: true,
-          autoplayTimeout: 3000,
-          autoplayHoverPause: true,
-          items: 3
-        });
-        $this.parent().find('.sliderBtnNext').unbind('click');
-        $this.parent().find('.sliderBtnNext').on('click', function () {
-          $this.trigger('next.owl.carousel')
-        })
-        $this.parent().find('.sliderBtnPrev').unbind('click');
-        $this.parent().find('.sliderBtnPrev').on('click', function () {
-          $this.trigger('prev.owl.carousel')
-        })
-      });
-    }
+  } else {
+    $('.owl-carousel').owlCarousel({
+      margin: 69,
+      autoWidth: true,
+      loop: false,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      dots: false
+    })
   }
-
-  setConfig();
-
-  function updateConfig() {
-    if(isWindowMobileSize()) {
-      $('.owl-carousel:not(:first)').trigger('change', {
-        autoWidth: false,
-        items: 1
-      })
-      $('.slider-fade-left').addClass('hide');
-      $('.slider-fade-right').addClass('hide');
-    } else {
-      $('.owl-carousel:not(:first)').trigger('change', {
-        autoWidth: true,
-        items: 3
-      })
-      $('.slider-fade-left').removeClass('hide');
-      $('.slider-fade-right').removeClass('hide');
-    }
-  }
-
-  function isWindowMobileSize() {
-    return $(window).width() < 576;
-  }
-
-  $(window).resize(function() {
-    setTimeout(() => {
-      updateConfig();
-    }, 0);
+  $('#sliderBtnNext').on('click', function () {
+    $('.owl-carousel').trigger('next.owl.carousel')
   })
-
-  $('.owl-4').owlCarousel({
-    stagePadding: 0,
-    items: 1,
-    margin: 60,
-    loop: false,
-    dots: false,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
+  $('#sliderBtnPrev').on('click', function () {
+    $('.owl-carousel').trigger('prev.owl.carousel')
   })
-
-  $('.owl-4').parent().find('.sliderBtnNext').on('click', function () {
-    $('.owl-4').trigger('next.owl.carousel')
-  })
-
-  $('.owl-4').parent().find('.sliderBtnPrev').on('click', function () {
-    $('.owl-4').trigger('prev.owl.carousel')
-  })
-
-  $('.kr-slider-container').on('mouseover', function (event) {
-    $('.owl-carousel').trigger('stop.owl.autoplay')
-  })
-
-  $('.kr-slider-container').on('mouseout', function () {
-    $('.owl-carousel').trigger('play.owl.autoplay', [3000])
-  })
-
-  $('.owl-carousel').not(':first').on('changed.owl.carousel', function () {
-
-    let $this = $(this);
-    let $element = $(this).find('.owl-item');
-  });
 }

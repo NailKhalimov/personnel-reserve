@@ -2370,7 +2370,7 @@ header {
         padding: 10px 0px 10px 10px; } }
     .purple-menu .container-fluid ul li ul {
       max-width: max-content;
-      min-width: 130px;
+      min-width: 200px;
       position: absolute;
       display: none; }
     .purple-menu .container-fluid ul li ul li {
